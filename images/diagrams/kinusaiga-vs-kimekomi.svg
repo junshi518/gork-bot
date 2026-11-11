@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 700" width="640" height="700" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Schematic comparing kinusaiga and kimekomi</title>
+  <desc>Schematic diagram comparing flat kinusaiga on a foam board with kimekomi on a three-dimensional form. Not a photo of either craft and not an item for sale.</desc>
+  <defs>
+    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#f3eadc"/>
+      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="700" fill="#fffcf6"/>
+  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
+  <text x="200" y="40" fill="#5e574e" font-size="18">Flat board and a three-dimensional form</text>
+
+  <!-- Kinusaiga column -->
+  <text x="40" y="88" fill="#1e1a16" font-size="20" font-weight="700">Kinusaiga</text>
+  <text x="168" y="88" fill="#5e574e" font-size="16">flat board</text>
+  <rect x="40" y="108" width="250" height="176" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <rect x="56" y="124" width="218" height="144" fill="#f4e6c4" stroke="#1e1a16" stroke-width="2.5"/>
+  <rect x="56" y="206" width="218" height="62" fill="#3d6b58" stroke="#1e1a16" stroke-width="2.5"/>
+  <circle cx="112" cy="168" r="32" fill="#c4654a" stroke="#1e1a16" stroke-width="2.5"/>
+  <polygon points="150,176 196,140 242,176" fill="#8d4e3c" stroke="#1e1a16" stroke-width="2.5"/>
+  <rect x="162" y="176" width="64" height="30" fill="#ead7b0" stroke="#1e1a16" stroke-width="2.5"/>
+
+  <text x="40" y="314" fill="#5e574e" font-size="15">Front &#8212; a picture on one face</text>
+  <text x="40" y="352" fill="#1e1a16" font-size="16" font-weight="700">Side view</text>
+  <rect x="40" y="366" width="250" height="28" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <rect x="40" y="360" width="70" height="6" fill="#c4654a"/>
+  <rect x="118" y="360" width="80" height="6" fill="#f4e6c4"/>
+  <rect x="206" y="360" width="84" height="6" fill="#3d6b58"/>
+  <rect x="108" y="366" width="8" height="10" fill="#c4654a"/>
+  <rect x="198" y="366" width="8" height="10" fill="#3d6b58"/>
+  <text x="40" y="424" fill="#1e1a16" font-size="16">Little depth. Frame it and hang it.</text>
+  <text x="40" y="452" fill="#5e574e" font-size="15">Grooves are cut in the flat face.</text>
+
+  <!-- Divider -->
+  <line x1="320" y1="72" x2="320" y2="480" stroke="#e3d9cb" stroke-width="1.5"/>
+
+  <!-- Kimekomi column -->
+  <text x="344" y="88" fill="#1e1a16" font-size="20" font-weight="700">Kimekomi</text>
+  <text x="464" y="88" fill="#5e574e" font-size="16">a volume</text>
+
+  <!-- schematic volume, no face, no costume -->
+  <ellipse cx="480" cy="196" rx="78" ry="92" fill="#f3e0cc" stroke="#1e1a16" stroke-width="2"/>
+  <ellipse cx="480" cy="196" rx="26" ry="92" fill="none" stroke="#5e574e" stroke-width="1.25" stroke-dasharray="4 3"/>
+  <ellipse cx="480" cy="160" rx="74" ry="16" fill="none" stroke="#1e1a16" stroke-width="2"/>
+  <ellipse cx="480" cy="196" rx="78" ry="18" fill="none" stroke="#1e1a16" stroke-width="2"/>
+  <ellipse cx="480" cy="232" rx="70" ry="16" fill="none" stroke="#1e1a16" stroke-width="2"/>
+  <line x1="480" y1="104" x2="480" y2="288" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="344" y="314" fill="#5e574e" font-size="15">Grooves wrap a carved form</text>
+  <text x="344" y="352" fill="#1e1a16" font-size="16" font-weight="700">Side view</text>
+  <circle cx="400" cy="392" r="28" fill="#f3e0cc" stroke="#1e1a16" stroke-width="2"/>
+  <line x1="372" y1="392" x2="428" y2="392" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="400" y1="364" x2="400" y2="420" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="440" y="388" fill="#1e1a16" font-size="16">The form has depth.</text>
+  <text x="344" y="452" fill="#5e574e" font-size="15">Often wood. Not a flat picture.</text>
+
+  <text x="32" y="520" fill="#1e1a16" font-size="16">Both tuck cloth into a groove. The object is different.</text>
+  <text x="32" y="548" fill="#1e1a16" font-size="16">This site teaches the flat board only. The volume is not a doll for sale.</text>
+  <text x="32" y="590" fill="#5e574e" font-size="16">A person can tuck cloth into other bases. These are the usual objects.</text>
+  <text x="32" y="650" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+</svg>

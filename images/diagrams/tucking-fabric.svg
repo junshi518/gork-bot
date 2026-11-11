@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 752" width="640" height="752" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Schematic of tucking fabric into a groove</title>
+  <desc>Schematic diagram showing fabric laid with a margin, then pushed into a foam groove with a blunt tool. Not a photo of a product or an item for sale.</desc>
+  <defs>
+    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#f3eadc"/>
+      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#1e1a16"/>
+    </marker>
+  </defs>
+  <rect width="640" height="752" fill="#fffcf6"/>
+  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
+  <text x="200" y="40" fill="#5e574e" font-size="18">Tucking fabric into the groove</text>
+
+  <text x="32" y="84" fill="#1e1a16" font-size="18" font-weight="700">1. Lay cloth past the line</text>
+  <rect x="48" y="148" width="544" height="90" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <rect x="292" y="148" width="20" height="28" fill="#e7dccb" stroke="#1e1a16" stroke-width="1.5"/>
+  <rect x="48" y="140" width="244" height="8" fill="#c4923a"/>
+  <rect x="80" y="108" width="420" height="18" fill="#c4654a" stroke="#1e1a16" stroke-width="1.25"/>
+  <line x1="302" y1="108" x2="302" y2="148" stroke="#1e1a16" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="48" y="268" fill="#1e1a16" font-size="16">Adhesive holds the middle.</text>
+  <text x="330" y="268" fill="#1e1a16" font-size="16">Cloth past the groove is the tuck.</text>
+  <text x="48" y="296" fill="#5e574e" font-size="16">Do not cut the cloth to the finished outline before this step.</text>
+
+  <text x="32" y="348" fill="#1e1a16" font-size="18" font-weight="700">2. Push the edge in</text>
+  <g transform="translate(300,364)">
+    <rect x="0" y="0" width="22" height="32" rx="4" fill="#4a4038" stroke="#1e1a16"/>
+    <rect x="6" y="28" width="10" height="20" rx="3" fill="#8a8178" stroke="#1e1a16"/>
+    <rect x="4" y="46" width="14" height="10" rx="2" fill="#d9d3cc" stroke="#1e1a16"/>
+  </g>
+  <text x="336" y="388" fill="#1e1a16" font-size="16">Blunt tip, not a point</text>
+  <rect x="48" y="436" width="520" height="96" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <rect x="300" y="436" width="22" height="36" fill="#e7dccb" stroke="#1e1a16" stroke-width="1.5"/>
+  <rect x="48" y="424" width="252" height="12" fill="#c4654a"/>
+  <rect x="300" y="430" width="10" height="38" fill="#c4654a"/>
+  <rect x="322" y="424" width="246" height="12" fill="#3d6b58"/>
+  <rect x="312" y="430" width="10" height="38" fill="#3d6b58"/>
+  <rect x="48" y="420" width="252" height="4" fill="#c4923a"/>
+  <rect x="322" y="420" width="246" height="4" fill="#c4923a"/>
+  <text x="48" y="564" fill="#1e1a16" font-size="16">Both edges share the groove. The face lies flat.</text>
+  <text x="48" y="604" fill="#1e1a16" font-size="16">Trim only surplus that will not fit, after the tuck.</text>
+
+  <text x="32" y="652" fill="#5e574e" font-size="16">If the edge springs back, the groove is too shallow.</text>
+  <text x="32" y="678" fill="#5e574e" font-size="16">Score a little deeper and tuck again.</text>
+  <text x="32" y="718" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+</svg>

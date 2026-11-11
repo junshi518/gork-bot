@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" width="640" height="540" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Schematic of cutting fabric before tucking</title>
+  <desc>Schematic diagram showing why fabric cut to the final shape before tucking has no edge left to push into the groove, and the margin to leave instead. Not a photo of a product or an item for sale.</desc>
+  <defs>
+    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#f3eadc"/>
+      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="540" fill="#fffcf6"/>
+  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
+  <text x="200" y="40" fill="#5e574e" font-size="18">Mistake &#8212; cutting to shape too soon</text>
+
+  <rect x="24" y="64" width="292" height="390" fill="#fffdf8" stroke="#e3d9cb"/>
+  <text x="40" y="98" fill="#8d4e3c" font-size="18" font-weight="700">Cut to the outline first</text>
+  <g transform="translate(48,112)" fill="none" stroke="#1e1a16" stroke-width="1.75">
+    <circle cx="10" cy="16" r="7"/>
+    <circle cx="26" cy="16" r="7"/>
+    <path d="M16 12 L36 0 M20 12 L40 4"/>
+  </g>
+  <rect x="48" y="156" width="244" height="130" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <circle cx="118" cy="220" r="34" fill="none" stroke="#1e1a16" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <circle cx="214" cy="220" r="34" fill="#c4654a" stroke="#1e1a16" stroke-width="1.5"/>
+  <text x="96" y="268" fill="#5e574e" font-size="13">groove</text>
+  <text x="196" y="268" fill="#5e574e" font-size="13">cloth</text>
+  <text x="40" y="316" fill="#1e1a16" font-size="16">The cloth matches the shape.</text>
+  <text x="40" y="342" fill="#8d4e3c" font-size="16" font-weight="700">No edge left to tuck.</text>
+  <text x="40" y="368" fill="#5e574e" font-size="15">The groove has nothing to hold.</text>
+
+  <rect x="324" y="64" width="292" height="390" fill="#fffdf8" stroke="#e3d9cb"/>
+  <text x="340" y="98" fill="#1a4f3c" font-size="18" font-weight="700">Leave a margin</text>
+  <rect x="348" y="156" width="244" height="130" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
+  <circle cx="470" cy="214" r="52" fill="#c4654a" stroke="#1e1a16" stroke-width="1.5"/>
+  <circle cx="470" cy="214" r="32" fill="none" stroke="#1e1a16" stroke-width="2.5"/>
+  <line x1="502" y1="200" x2="548" y2="176" stroke="#5e574e" stroke-width="1.25"/>
+  <text x="500" y="168" fill="#1e1a16" font-size="13">margin</text>
+  <text x="340" y="316" fill="#1e1a16" font-size="16">Extra cloth past the groove.</text>
+  <text x="340" y="342" fill="#1a4f3c" font-size="16" font-weight="700">Tuck first. Trim after.</text>
+  <text x="340" y="368" fill="#5e574e" font-size="15">The dark line is the groove.</text>
+
+  <text x="32" y="500" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+</svg>
