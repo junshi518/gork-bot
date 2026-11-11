@@ -21,6 +21,10 @@ It is not a live store, not a public launch, and not a checkout site.
 
 There is no `/patterns` page and no standalone `/about` or `/faq` page. Shop categories are anchors on `/shop`, not separate item pages.
 
+## Schematic diagrams
+
+Original line diagrams live in `images/diagrams/`. Each figure is labeled on the page as a schematic. They are not photographs, not product shots, and not items for sale. The shop placeholder still has no images and no prices.
+
 ## Local preview
 
 From the repository root, serve the files only on this machine:
