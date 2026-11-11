@@ -243,7 +243,7 @@ caption {
 }
 
 .diagram {
-  margin: 1.4rem 0 1.6rem;
+  margin: 1.85rem 0 2.15rem;
 }
 
 .diagram img {
@@ -255,22 +255,20 @@ caption {
 }
 
 .diagram figcaption {
-  margin-top: 0.45rem;
-  color: var(--muted);
+  margin: 0.4rem 0 0;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
   font-family: var(--sans);
-  font-size: 0.86rem;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  line-height: 1.45;
   text-align: left;
 }
 
-.diagram figcaption strong {
-  display: block;
-  margin-bottom: 0.2rem;
-  color: var(--ink);
-  font-weight: 650;
-}
-
 .steps .diagram {
-  margin: 0.85rem 0 0.35rem;
+  margin: 1.05rem 0 0.55rem;
 }
 
 .on-this-page {

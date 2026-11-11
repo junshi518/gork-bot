@@ -1,78 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" font-family="Segoe UI, system-ui, sans-serif">
-  <title>Schematic of kinusaiga tools and materials</title>
-  <desc>Schematic diagram of generic kinusaiga materials: about 1-inch XPS foam, a double-sided adhesive sheet, a craft knife, and a blunt tucking tool. Not product photos and not items for sale.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 980" width="840" height="980" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Tools and materials</title>
+  <desc>Schematic of about 1-inch XPS foam, a double-sided adhesive sheet, a craft knife, and a blunt tucking tool. Not product photos and not items for sale.</desc>
   <defs>
-    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
-      <rect width="10" height="10" fill="#f3eadc"/>
-      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="640" height="760" fill="#fffcf6"/>
-  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
-  <text x="200" y="40" fill="#5e574e" font-size="18">Tools and materials &#8212; generic</text>
-
-  <!-- Foam -->
-  <g transform="translate(24,64)">
-    <rect width="292" height="300" fill="#fffdf8" stroke="#e3d9cb"/>
-    <text x="16" y="32" fill="#1e1a16" font-size="18" font-weight="700">XPS foam</text>
-    <line x1="36" y1="78" x2="36" y2="188" stroke="#5e574e" stroke-width="1.5"/>
-    <line x1="30" y1="78" x2="42" y2="78" stroke="#5e574e" stroke-width="1.5"/>
-    <line x1="30" y1="188" x2="42" y2="188" stroke="#5e574e" stroke-width="1.5"/>
-    <text x="16" y="68" fill="#5e574e" font-size="14">~1 in</text>
-    <rect x="52" y="78" width="210" height="110" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-    <text x="16" y="224" fill="#1e1a16" font-size="16">Firm, about 1 inch thick.</text>
-    <text x="16" y="250" fill="#1e1a16" font-size="16">Display board is usually</text>
-    <text x="16" y="274" fill="#1e1a16" font-size="16">too thin for the tuck.</text>
-  </g>
-
-  <!-- Adhesive -->
-  <g transform="translate(324,64)">
-    <rect width="292" height="300" fill="#fffdf8" stroke="#e3d9cb"/>
-    <text x="16" y="32" fill="#1e1a16" font-size="18" font-weight="700">Double-sided adhesive</text>
-    <rect x="36" y="70" width="180" height="22" fill="#fffdf8" stroke="#1e1a16" stroke-width="1.5"/>
-    <text x="224" y="86" fill="#5e574e" font-size="14">Liner</text>
-    <rect x="36" y="100" width="180" height="16" fill="#c4923a" stroke="#1e1a16" stroke-width="1.5"/>
-    <text x="224" y="113" fill="#5e574e" font-size="14">Sheet</text>
-    <rect x="28" y="140" width="196" height="64" fill="url(#foam)" stroke="#1e1a16" stroke-width="1.5"/>
-    <text x="36" y="178" fill="#5e574e" font-size="14">Foam face</text>
-    <text x="16" y="232" fill="#1e1a16" font-size="16">A sheet, not wet glue.</text>
-    <text x="16" y="258" fill="#1e1a16" font-size="16">Leave the liner on until</text>
-    <text x="16" y="282" fill="#1e1a16" font-size="16">you tuck one shape.</text>
-  </g>
-
-  <!-- Knife -->
-  <g transform="translate(24,380)">
-    <rect width="292" height="280" fill="#fffdf8" stroke="#e3d9cb"/>
-    <text x="16" y="32" fill="#1e1a16" font-size="18" font-weight="700">Craft knife</text>
-    <g transform="translate(36,110) rotate(-24)">
-      <rect x="0" y="-16" width="130" height="32" rx="6" fill="#4a4038" stroke="#1e1a16"/>
-      <rect x="122" y="-10" width="18" height="20" fill="#8a8178" stroke="#1e1a16"/>
-      <polygon points="140,-3 196,0 140,3" fill="#ece8e2" stroke="#1e1a16"/>
-    </g>
-    <text x="16" y="196" fill="#1e1a16" font-size="16">Sharp, thin blade.</text>
-    <text x="16" y="222" fill="#1e1a16" font-size="16">Change it when it crushes</text>
-    <text x="16" y="248" fill="#1e1a16" font-size="16">the foam instead of cutting.</text>
-  </g>
-
-  <!-- Tucking tool -->
-  <g transform="translate(324,380)">
-    <rect width="292" height="280" fill="#fffdf8" stroke="#e3d9cb"/>
-    <text x="16" y="32" fill="#1e1a16" font-size="18" font-weight="700">Tucking tool</text>
-    <g transform="translate(28,108)" fill="none" stroke="#1e1a16" stroke-width="1.75">
-      <rect x="0" y="8" width="78" height="26" rx="8" fill="#4a4038"/>
-      <line x1="78" y1="21" x2="150" y2="21" stroke="#8a8178" stroke-width="4"/>
-      <path d="M150 21 L188 6" stroke="#8a8178" stroke-width="3"/>
-      <path d="M150 21 L186 36" stroke="#8a8178" stroke-width="3"/>
-      <circle cx="190" cy="38" r="7" fill="#d9d3cc"/>
-    </g>
-    <text x="168" y="100" fill="#8d4e3c" font-size="13">point</text>
-    <line x1="200" y1="158" x2="214" y2="148" stroke="#1a4f3c" stroke-width="1.25"/>
-    <text x="16" y="176" fill="#1a4f3c" font-size="15">Ball end: push cloth with this.</text>
-    <text x="16" y="210" fill="#1e1a16" font-size="16">The flat back of a seam ripper</text>
-    <text x="16" y="234" fill="#1e1a16" font-size="16">is a household stand-in.</text>
-    <text x="16" y="258" fill="#8d4e3c" font-size="15">Do not tuck with the point.</text>
-  </g>
-
-  <text x="32" y="700" fill="#1e1a16" font-size="16">Generic tools. No brand, no kit, and nothing here is for sale.</text>
-  <text x="32" y="732" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="980" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Tools and materials</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">Generic kinds. No brand, and nothing here is for sale.</text>
+  <rect x="36.00" y="120.00" width="366.00" height="390.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <text x="54.0" y="156.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">XPS foam, about 1 inch</text>
+  <text x="54.0" y="480.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Firm board. Display foam is usually too thin.</text>
+  <rect x="438.00" y="120.00" width="366.00" height="390.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <text x="456.0" y="156.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">Double-sided sheet</text>
+  <text x="456.0" y="480.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Liner peels. Adhesive meets the foam face.</text>
+  <rect x="36.00" y="540.00" width="366.00" height="390.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <text x="54.0" y="576.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">Craft knife</text>
+  <text x="54.0" y="900.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">A sharp, thin blade. Replace it when it crushes.</text>
+  <rect x="438.00" y="540.00" width="366.00" height="390.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <text x="456.0" y="576.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">Tucking tool</text>
+  <text x="456.0" y="900.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Push with the ball. Do not use the point.</text>
+  <polygon points="289.24,290.00 206.11,242.00 206.11,204.00 289.24,252.00" fill="url(#foamDark)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="168.00,360.00 289.24,290.00 289.24,252.00 168.00,322.00" fill="url(#foamSide)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="170.60" y1="351.50" x2="286.65" y2="284.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="286.65" y1="281.50" x2="208.70" y2="236.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="170.60" y1="343.50" x2="286.65" y2="276.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="286.65" y1="273.50" x2="208.70" y2="228.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="170.60" y1="335.50" x2="286.65" y2="268.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="286.65" y1="265.50" x2="208.70" y2="220.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="170.60" y1="327.50" x2="286.65" y2="260.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="286.65" y1="257.50" x2="208.70" y2="212.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <polygon points="168.00,322.00 289.24,252.00 206.11,204.00 84.86,274.00" fill="url(#foam)" stroke="#241e18" stroke-width="1.7" stroke-linejoin="round"/>
+  <line x1="150.00" y1="322.00" x2="150.00" y2="360.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="144.00" y1="322.00" x2="156.00" y2="322.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="144.00" y1="360.00" x2="156.00" y2="360.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <text x="140.0" y="346.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="end">~1 in</text>
+  <polygon points="490.00,286.00 720.00,250.00 740.00,308.00 510.00,344.00" fill="#c4923a" stroke="#241e18" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="496.00,282.00 658.00,258.00 676.00,302.00 514.00,328.00" fill="#fffdf8" stroke="#241e18" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M658 258 C 720 222, 782 274, 726 312 C 704 290, 686 278, 676 302 Z" fill="#fffdf8" stroke="#241e18" stroke-width="1.4"/>
+  <line x1="740.00" y1="260.00" x2="790.00" y2="226.00" stroke="#241e18" stroke-width="1.6" fill="none" marker-end="url(#arr)"/>
+  <text x="738.0" y="220.0" fill="#241e18" font-size="14" font-weight="700" text-anchor="start">Peel the liner</text>
+  <text x="498.0" y="380.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Gold face goes onto the foam.</text>
+  <g transform="translate(80.0 700.0) rotate(-24)"><rect x="0" y="-14.9" width="142.6" height="29.9" rx="9.2" fill="#3a342e" stroke="#241e18" stroke-width="1.5"/><line x1="32.2" y1="-9.2" x2="32.2" y2="9.2" stroke="#5a5148" stroke-width="1.3"/><line x1="52.9" y1="-9.2" x2="52.9" y2="9.2" stroke="#5a5148" stroke-width="1.3"/><line x1="73.6" y1="-9.2" x2="73.6" y2="9.2" stroke="#5a5148" stroke-width="1.3"/><line x1="94.3" y1="-9.2" x2="94.3" y2="9.2" stroke="#5a5148" stroke-width="1.3"/><rect x="133.4" y="-9.2" width="20.7" height="18.4" fill="#d9d4cc" stroke="#241e18" stroke-width="1.3"/><polygon points="154.1,-2.5 216.2,0 154.1,2.5" fill="#d9d4cc" stroke="#241e18" stroke-width="1.2" stroke-linejoin="round"/><line x1="172.5" y1="-2.3" x2="172.5" y2="2.3" stroke="#6e6860" stroke-width="0.8"/><line x1="188.6" y1="-2.3" x2="188.6" y2="2.3" stroke="#6e6860" stroke-width="0.8"/></g>
+  <circle cx="300.00" cy="640.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="300.00" y1="640.00" x2="300.00" y2="600.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="308.0" y="605.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Sharp blade</text>
+  <g transform="translate(490.0 700.0) rotate(-8)"><rect x="0" y="-17.5" width="97.5" height="35.0" rx="15.0" fill="#3a342e" stroke="#241e18" stroke-width="1.5"/><line x1="92.5" y1="0" x2="165.0" y2="0" stroke="#6e6860" stroke-width="6.2" stroke-linecap="round"/><path d="M160.0 0 L210.0 -20.0" fill="none" stroke="#6e6860" stroke-width="4.0" stroke-linecap="round"/><path d="M160.0 0 L207.5 22.5" fill="none" stroke="#6e6860" stroke-width="4.0" stroke-linecap="round"/><circle cx="212.5" cy="25.0" r="9.4" fill="#d9d4cc" stroke="#241e18" stroke-width="1.4"/></g>
+  <circle cx="704.00" cy="694.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="704.00" y1="694.00" x2="760.00" y2="760.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="768.0" y="765.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Ball end</text>
+  <text x="500.0" y="820.0" fill="#8f3d32" font-size="14" font-weight="500" text-anchor="start">Point: not for the foam</text>
 </svg>

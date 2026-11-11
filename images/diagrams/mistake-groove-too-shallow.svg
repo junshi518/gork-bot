@@ -1,45 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520" font-family="Segoe UI, system-ui, sans-serif">
-  <title>Schematic of a groove that is too shallow</title>
-  <desc>Schematic diagram comparing a groove that is too shallow, where fabric pops back up, with a slot about 1/4 inch deep that holds the edge. Not a photo of a product or an item for sale.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 640" width="840" height="640" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Groove too shallow</title>
+  <desc>Schematic comparing a groove that is too shallow with a groove about 1/4 inch deep. Not a photograph and not an item for sale.</desc>
   <defs>
-    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
-      <rect width="10" height="10" fill="#f3eadc"/>
-      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
-    </pattern>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0 0 L10 5 L0 10 Z" fill="#8d4e3c"/>
-    </marker>
-  </defs>
-  <rect width="640" height="520" fill="#fffcf6"/>
-  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
-  <text x="200" y="40" fill="#5e574e" font-size="18">Mistake &#8212; groove too shallow</text>
-
-  <!-- Problem -->
-  <rect x="24" y="64" width="292" height="360" fill="#fffdf8" stroke="#e3d9cb"/>
-  <text x="40" y="98" fill="#8d4e3c" font-size="18" font-weight="700">Too shallow</text>
-  <rect x="48" y="200" width="244" height="100" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <path d="M150 200 Q162 206 174 200" fill="none" stroke="#1e1a16" stroke-width="2"/>
-  <path d="M70 168 H150 Q162 150 174 168 H270 V184 H174 Q162 166 150 184 H70 Z" fill="#c4654a" stroke="#1e1a16" stroke-width="1.25"/>
-  <line x1="162" y1="148" x2="162" y2="118" stroke="#8d4e3c" stroke-width="1.75" marker-end="url(#arrow)"/>
-  <text x="40" y="340" fill="#1e1a16" font-size="16">A scratch, not a slot.</text>
-  <text x="40" y="366" fill="#1e1a16" font-size="16">The edge pops back up.</text>
-  <text x="40" y="392" fill="#5e574e" font-size="15">Forcing it makes a ridge.</text>
-
-  <!-- Better -->
-  <rect x="324" y="64" width="292" height="360" fill="#fffdf8" stroke="#e3d9cb"/>
-  <text x="340" y="98" fill="#1a4f3c" font-size="18" font-weight="700">Deep enough</text>
-  <rect x="348" y="200" width="244" height="100" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <rect x="458" y="200" width="20" height="28" fill="#e7dccb" stroke="#1e1a16" stroke-width="1.5"/>
-  <rect x="348" y="188" width="110" height="12" fill="#c4654a"/>
-  <rect x="458" y="194" width="10" height="30" fill="#c4654a"/>
-  <rect x="478" y="188" width="114" height="12" fill="#3d6b58"/>
-  <rect x="468" y="194" width="10" height="30" fill="#3d6b58"/>
-  <line x1="448" y1="200" x2="448" y2="228" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="442" y1="200" x2="454" y2="200" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="442" y1="228" x2="454" y2="228" stroke="#5e574e" stroke-width="1.5"/>
-  <text x="340" y="340" fill="#1e1a16" font-size="16">A slot about 1/4 inch deep.</text>
-  <text x="340" y="366" fill="#1e1a16" font-size="16">The edge stays down.</text>
-  <text x="340" y="392" fill="#5e574e" font-size="15">The face stays flat.</text>
-
-  <text x="32" y="470" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="640" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Groove too shallow</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">A scratch will not hold cloth. A slot will.</text>
+  <rect x="28.00" y="120.00" width="384.00" height="470.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <rect x="428.00" y="120.00" width="384.00" height="470.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <rect x="48.00" y="140.00" width="58.00" height="28.00" rx="3" fill="#f8ebe7" stroke="#8f3d32" stroke-width="1.4"/>
+  <text x="77.0" y="159.0" fill="#8f3d32" font-size="14" font-weight="700" text-anchor="middle">Wrong</text>
+  <rect x="448.00" y="140.00" width="58.00" height="28.00" rx="3" fill="#e7f0eb" stroke="#1a4f3c" stroke-width="1.4"/>
+  <text x="477.0" y="159.0" fill="#1a4f3c" font-size="14" font-weight="700" text-anchor="middle">Right</text>
+  <rect x="70.00" y="280.00" width="300.00" height="120.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <path d="M200 280 Q214 288 228 280" fill="none" stroke="#241e18" stroke-width="2.2"/>
+  <path d="M 90.00 250.00 L 200.00 250.00 L 214.00 232.00 L 228.00 250.00 L 350.00 250.00" fill="none" stroke="#c4654a" stroke-width="16" stroke-linecap="butt" stroke-linejoin="round"/>
+  <line x1="214.00" y1="220.00" x2="214.00" y2="188.00" stroke="#8f3d32" stroke-width="2" fill="none" marker-end="url(#arrW)"/>
+  <text x="70.0" y="440.0" fill="#8f3d32" font-size="16" font-weight="700" text-anchor="start">The edge pops back up.</text>
+  <text x="70.0" y="468.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Forcing it packs a ridge on the line.</text>
+  <rect x="470.00" y="280.00" width="300.00" height="120.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <rect x="608.00" y="280.00" width="26.00" height="34.00" rx="0" fill="#fbf7f0" stroke="#241e18" stroke-width="1.6"/>
+  <rect x="470.00" y="272.00" width="138.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1"/>
+  <rect x="634.00" y="272.00" width="136.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1"/>
+  <path d="M 500.00 258.00 L 610.00 258.00 L 618.00 268.00 L 620.00 306.00" fill="none" stroke="#c4654a" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M 500.00 258.00 L 610.00 258.00 L 618.00 268.00 L 620.00 306.00" fill="none" stroke="#241e18" stroke-width="1.15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M 750.00 258.00 L 632.00 258.00 L 624.00 268.00 L 622.00 306.00" fill="none" stroke="#3d6b58" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M 750.00 258.00 L 632.00 258.00 L 624.00 268.00 L 622.00 306.00" fill="none" stroke="#241e18" stroke-width="1.15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <line x1="590.00" y1="280.00" x2="590.00" y2="314.00" stroke="#1a4f3c" stroke-width="1.25" fill="none"/>
+  <line x1="584.00" y1="280.00" x2="596.00" y2="280.00" stroke="#1a4f3c" stroke-width="1.25" fill="none"/>
+  <line x1="584.00" y1="314.00" x2="596.00" y2="314.00" stroke="#1a4f3c" stroke-width="1.25" fill="none"/>
+  <text x="580.0" y="302.0" fill="#1a4f3c" font-size="14" font-weight="500" text-anchor="end">~1/4 in</text>
+  <text x="470.0" y="440.0" fill="#1a4f3c" font-size="16" font-weight="700" text-anchor="start">The edge stays in the slot.</text>
+  <text x="470.0" y="468.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">The face lies flat.</text>
 </svg>

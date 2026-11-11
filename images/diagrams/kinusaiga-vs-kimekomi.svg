@@ -1,62 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 700" width="640" height="700" font-family="Segoe UI, system-ui, sans-serif">
-  <title>Schematic comparing kinusaiga and kimekomi</title>
-  <desc>Schematic diagram comparing flat kinusaiga on a foam board with kimekomi on a three-dimensional form. Not a photo of either craft and not an item for sale.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 900" width="840" height="900" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Flat board and a volume</title>
+  <desc>Schematic comparing flat kinusaiga on a foam board with kimekomi on a three-dimensional form, using the same leaf. Not a photograph and not an item for sale.</desc>
   <defs>
-    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
-      <rect width="10" height="10" fill="#f3eadc"/>
-      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="640" height="700" fill="#fffcf6"/>
-  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
-  <text x="200" y="40" fill="#5e574e" font-size="18">Flat board and a three-dimensional form</text>
-
-  <!-- Kinusaiga column -->
-  <text x="40" y="88" fill="#1e1a16" font-size="20" font-weight="700">Kinusaiga</text>
-  <text x="168" y="88" fill="#5e574e" font-size="16">flat board</text>
-  <rect x="40" y="108" width="250" height="176" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <rect x="56" y="124" width="218" height="144" fill="#f4e6c4" stroke="#1e1a16" stroke-width="2.5"/>
-  <rect x="56" y="206" width="218" height="62" fill="#3d6b58" stroke="#1e1a16" stroke-width="2.5"/>
-  <circle cx="112" cy="168" r="32" fill="#c4654a" stroke="#1e1a16" stroke-width="2.5"/>
-  <polygon points="150,176 196,140 242,176" fill="#8d4e3c" stroke="#1e1a16" stroke-width="2.5"/>
-  <rect x="162" y="176" width="64" height="30" fill="#ead7b0" stroke="#1e1a16" stroke-width="2.5"/>
-
-  <text x="40" y="314" fill="#5e574e" font-size="15">Front &#8212; a picture on one face</text>
-  <text x="40" y="352" fill="#1e1a16" font-size="16" font-weight="700">Side view</text>
-  <rect x="40" y="366" width="250" height="28" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <rect x="40" y="360" width="70" height="6" fill="#c4654a"/>
-  <rect x="118" y="360" width="80" height="6" fill="#f4e6c4"/>
-  <rect x="206" y="360" width="84" height="6" fill="#3d6b58"/>
-  <rect x="108" y="366" width="8" height="10" fill="#c4654a"/>
-  <rect x="198" y="366" width="8" height="10" fill="#3d6b58"/>
-  <text x="40" y="424" fill="#1e1a16" font-size="16">Little depth. Frame it and hang it.</text>
-  <text x="40" y="452" fill="#5e574e" font-size="15">Grooves are cut in the flat face.</text>
-
-  <!-- Divider -->
-  <line x1="320" y1="72" x2="320" y2="480" stroke="#e3d9cb" stroke-width="1.5"/>
-
-  <!-- Kimekomi column -->
-  <text x="344" y="88" fill="#1e1a16" font-size="20" font-weight="700">Kimekomi</text>
-  <text x="464" y="88" fill="#5e574e" font-size="16">a volume</text>
-
-  <!-- schematic volume, no face, no costume -->
-  <ellipse cx="480" cy="196" rx="78" ry="92" fill="#f3e0cc" stroke="#1e1a16" stroke-width="2"/>
-  <ellipse cx="480" cy="196" rx="26" ry="92" fill="none" stroke="#5e574e" stroke-width="1.25" stroke-dasharray="4 3"/>
-  <ellipse cx="480" cy="160" rx="74" ry="16" fill="none" stroke="#1e1a16" stroke-width="2"/>
-  <ellipse cx="480" cy="196" rx="78" ry="18" fill="none" stroke="#1e1a16" stroke-width="2"/>
-  <ellipse cx="480" cy="232" rx="70" ry="16" fill="none" stroke="#1e1a16" stroke-width="2"/>
-  <line x1="480" y1="104" x2="480" y2="288" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
-
-  <text x="344" y="314" fill="#5e574e" font-size="15">Grooves wrap a carved form</text>
-  <text x="344" y="352" fill="#1e1a16" font-size="16" font-weight="700">Side view</text>
-  <circle cx="400" cy="392" r="28" fill="#f3e0cc" stroke="#1e1a16" stroke-width="2"/>
-  <line x1="372" y1="392" x2="428" y2="392" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
-  <line x1="400" y1="364" x2="400" y2="420" stroke="#5e574e" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="440" y="388" fill="#1e1a16" font-size="16">The form has depth.</text>
-  <text x="344" y="452" fill="#5e574e" font-size="15">Often wood. Not a flat picture.</text>
-
-  <text x="32" y="520" fill="#1e1a16" font-size="16">Both tuck cloth into a groove. The object is different.</text>
-  <text x="32" y="548" fill="#1e1a16" font-size="16">This site teaches the flat board only. The volume is not a doll for sale.</text>
-  <text x="32" y="590" fill="#5e574e" font-size="16">A person can tuck cloth into other bases. These are the usual objects.</text>
-  <text x="32" y="650" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="900" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Flat board and a volume</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">The same leaf. Only the support changes.</text>
+  <text x="36.0" y="130.0" fill="#241e18" font-size="22" font-weight="700" text-anchor="start">Kinusaiga</text>
+  <text x="180.0" y="130.0" fill="#5c564c" font-size="16" font-weight="500" text-anchor="start">flat board</text>
+  <text x="450.0" y="130.0" fill="#241e18" font-size="22" font-weight="700" text-anchor="start">Kimekomi</text>
+  <text x="600.0" y="130.0" fill="#5c564c" font-size="16" font-weight="500" text-anchor="start">a volume</text>
+  <line x1="420.00" y1="120.00" x2="420.00" y2="640.00" stroke="#e3d6c6" stroke-width="1.4" fill="none"/>
+  <polygon points="409.19,355.00 270.62,275.00 270.62,247.00 409.19,327.00" fill="url(#foamDark)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="210.00,470.00 409.19,355.00 409.19,327.00 210.00,442.00" fill="url(#foamSide)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="212.60" y1="461.50" x2="406.59" y2="349.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="406.59" y1="346.50" x2="273.22" y2="269.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="212.60" y1="453.50" x2="406.59" y2="341.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="406.59" y1="338.50" x2="273.22" y2="261.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="212.60" y1="445.50" x2="406.59" y2="333.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="406.59" y1="330.50" x2="273.22" y2="253.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <polygon points="210.00,442.00 409.19,327.00 270.62,247.00 71.44,362.00" fill="url(#foam)" stroke="#241e18" stroke-width="1.7" stroke-linejoin="round"/>
+  <polygon points="213.12,425.80 381.13,328.80 266.72,262.75 98.72,359.75" fill="#f4e6c6" stroke="#241e18" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="283.27,369.30 275.62,370.82 268.57,372.00 261.77,373.04 255.18,373.95 248.79,374.75 242.61,375.42 236.65,375.97 230.94,376.38 225.47,376.64 220.27,376.75 215.35,376.70 210.73,376.48 206.41,376.08 202.41,375.50 198.73,374.73 195.38,373.78 192.37,372.62 189.69,371.28 187.36,369.73 185.36,367.99 183.70,366.06 182.37,363.93 181.37,361.62 180.68,359.13 180.29,356.46 180.20,353.62 180.39,350.62 180.85,347.46 181.56,344.16 182.51,340.72 183.68,337.16 185.06,333.47 186.64,329.66 188.43,325.73 190.48,321.66 193.11,317.25 193.11,317.25 195.62,318.70 198.12,320.14 200.63,321.59 203.13,323.03 205.63,324.48 208.14,325.93 210.64,327.37 213.15,328.82 215.65,330.26 218.16,331.71 220.66,333.15 223.16,334.60 225.67,336.05 228.17,337.49 230.68,338.94 233.18,340.38 235.68,341.83 238.19,343.28 240.69,344.72 243.20,346.17 245.70,347.61 248.21,349.06 250.71,350.50 253.21,351.95 255.72,353.40 258.22,354.84 260.73,356.29 263.23,357.73 265.74,359.18 268.24,360.62 270.74,362.07 273.25,363.52 275.75,364.96 278.26,366.41 280.76,367.85 283.27,369.30" fill="#c4654a" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <polygon points="283.27,369.30 285.90,364.89 287.94,360.82 289.74,356.89 291.32,353.08 292.70,349.39 293.87,345.83 294.82,342.39 295.53,339.09 295.98,335.93 296.17,332.93 296.08,330.09 295.70,327.42 295.01,324.93 294.01,322.62 292.68,320.49 291.02,318.56 289.02,316.82 286.69,315.28 284.01,313.93 281.00,312.77 277.65,311.82 273.97,311.05 269.97,310.47 265.65,310.07 261.03,309.85 256.11,309.80 250.91,309.91 245.44,310.17 239.72,310.58 233.77,311.13 227.59,311.80 221.20,312.60 214.61,313.51 207.81,314.55 200.75,315.73 193.11,317.25 193.11,317.25 195.62,318.70 198.12,320.14 200.63,321.59 203.13,323.03 205.63,324.48 208.14,325.93 210.64,327.37 213.15,328.82 215.65,330.26 218.16,331.71 220.66,333.15 223.16,334.60 225.67,336.05 228.17,337.49 230.68,338.94 233.18,340.38 235.68,341.83 238.19,343.28 240.69,344.72 243.20,346.17 245.70,347.61 248.21,349.06 250.71,350.50 253.21,351.95 255.72,353.40 258.22,354.84 260.73,356.29 263.23,357.73 265.74,359.18 268.24,360.62 270.74,362.07 273.25,363.52 275.75,364.96 278.26,366.41 280.76,367.85 283.27,369.30" fill="#3d6b58" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M 283.27 369.30 L 275.62 370.82 L 268.57 372.00 L 261.77 373.04 L 255.18 373.95 L 248.79 374.75 L 242.61 375.42 L 236.65 375.97 L 230.94 376.38 L 225.47 376.64 L 220.27 376.75 L 215.35 376.70 L 210.73 376.48 L 206.41 376.08 L 202.41 375.50 L 198.73 374.73 L 195.38 373.78 L 192.37 372.62 L 189.69 371.28 L 187.36 369.73 L 185.36 367.99 L 183.70 366.06 L 182.37 363.93 L 181.37 361.62 L 180.68 359.13 L 180.29 356.46 L 180.20 353.62 L 180.39 350.62 L 180.85 347.46 L 181.56 344.16 L 182.51 340.72 L 183.68 337.16 L 185.06 333.47 L 186.64 329.66 L 188.43 325.73 L 190.48 321.66 L 193.11 317.25 L 193.11 317.25 L 200.75 315.73 L 207.81 314.55 L 214.61 313.51 L 221.20 312.60 L 227.59 311.80 L 233.77 311.13 L 239.72 310.58 L 245.44 310.17 L 250.91 309.91 L 256.11 309.80 L 261.03 309.85 L 265.65 310.07 L 269.97 310.47 L 273.97 311.05 L 277.65 311.82 L 281.00 312.77 L 284.01 313.93 L 286.69 315.28 L 289.02 316.82 L 291.02 318.56 L 292.68 320.49 L 294.01 322.62 L 295.01 324.93 L 295.70 327.42 L 296.08 330.09 L 296.17 332.93 L 295.98 335.93 L 295.53 339.09 L 294.82 342.39 L 293.87 345.83 L 292.70 349.39 L 291.32 353.08 L 289.74 356.89 L 287.94 360.82 L 285.90 364.89 L 283.27 369.30" fill="none" stroke="#241e18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 283.27 369.30 L 275.62 370.82 L 268.57 372.00 L 261.77 373.04 L 255.18 373.95 L 248.79 374.75 L 242.61 375.42 L 236.65 375.97 L 230.94 376.38 L 225.47 376.64 L 220.27 376.75 L 215.35 376.70 L 210.73 376.48 L 206.41 376.08 L 202.41 375.50 L 198.73 374.73 L 195.38 373.78 L 192.37 372.62 L 189.69 371.28 L 187.36 369.73 L 185.36 367.99 L 183.70 366.06 L 182.37 363.93 L 181.37 361.62 L 180.68 359.13 L 180.29 356.46 L 180.20 353.62 L 180.39 350.62 L 180.85 347.46 L 181.56 344.16 L 182.51 340.72 L 183.68 337.16 L 185.06 333.47 L 186.64 329.66 L 188.43 325.73 L 190.48 321.66 L 193.11 317.25 L 193.11 317.25 L 200.75 315.73 L 207.81 314.55 L 214.61 313.51 L 221.20 312.60 L 227.59 311.80 L 233.77 311.13 L 239.72 310.58 L 245.44 310.17 L 250.91 309.91 L 256.11 309.80 L 261.03 309.85 L 265.65 310.07 L 269.97 310.47 L 273.97 311.05 L 277.65 311.82 L 281.00 312.77 L 284.01 313.93 L 286.69 315.28 L 289.02 316.82 L 291.02 318.56 L 292.68 320.49 L 294.01 322.62 L 295.01 324.93 L 295.70 327.42 L 296.08 330.09 L 296.17 332.93 L 295.98 335.93 L 295.53 339.09 L 294.82 342.39 L 293.87 345.83 L 292.70 349.39 L 291.32 353.08 L 289.74 356.89 L 287.94 360.82 L 285.90 364.89 L 283.27 369.30" fill="none" stroke="#6a5d50" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 283.27 369.30 L 280.76 367.85 L 278.26 366.41 L 275.75 364.96 L 273.25 363.52 L 270.74 362.07 L 268.24 360.62 L 265.74 359.18 L 263.23 357.73 L 260.73 356.29 L 258.22 354.84 L 255.72 353.40 L 253.21 351.95 L 250.71 350.50 L 248.21 349.06 L 245.70 347.61 L 243.20 346.17 L 240.69 344.72 L 238.19 343.28 L 235.68 341.83 L 233.18 340.38 L 230.68 338.94 L 228.17 337.49 L 225.67 336.05 L 223.16 334.60 L 220.66 333.15 L 218.16 331.71 L 215.65 330.26 L 213.15 328.82 L 210.64 327.37 L 208.14 325.93 L 205.63 324.48 L 203.13 323.03 L 200.63 321.59 L 198.12 320.14 L 195.62 318.70 L 193.11 317.25" fill="none" stroke="#241e18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 283.27 369.30 L 280.76 367.85 L 278.26 366.41 L 275.75 364.96 L 273.25 363.52 L 270.74 362.07 L 268.24 360.62 L 265.74 359.18 L 263.23 357.73 L 260.73 356.29 L 258.22 354.84 L 255.72 353.40 L 253.21 351.95 L 250.71 350.50 L 248.21 349.06 L 245.70 347.61 L 243.20 346.17 L 240.69 344.72 L 238.19 343.28 L 235.68 341.83 L 233.18 340.38 L 230.68 338.94 L 228.17 337.49 L 225.67 336.05 L 223.16 334.60 L 220.66 333.15 L 218.16 331.71 L 215.65 330.26 L 213.15 328.82 L 210.64 327.37 L 208.14 325.93 L 205.63 324.48 L 203.13 323.03 L 200.63 321.59 L 198.12 320.14 L 195.62 318.70 L 193.11 317.25" fill="none" stroke="#6a5d50" stroke-width="1.87" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 213.12 425.80 L 381.13 328.80 L 266.72 262.75 L 98.72 359.75 L 213.12 425.80" fill="none" stroke="#241e18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 213.12 425.80 L 381.13 328.80 L 266.72 262.75 L 98.72 359.75 L 213.12 425.80" fill="none" stroke="#6a5d50" stroke-width="1.7000000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="36.0" y="500.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Side view</text>
+  <rect x="36.00" y="518.00" width="280.00" height="28.00" rx="0" fill="url(#foamSide)" stroke="#241e18" stroke-width="1.6"/>
+  <rect x="36.00" y="512.00" width="80.00" height="6.00" rx="0" fill="#c4654a" stroke="none" stroke-width="0"/>
+  <rect x="120.00" y="512.00" width="90.00" height="6.00" rx="0" fill="#f4e6c6" stroke="none" stroke-width="0"/>
+  <rect x="214.00" y="512.00" width="102.00" height="6.00" rx="0" fill="#3d6b58" stroke="none" stroke-width="0"/>
+  <rect x="112.00" y="518.00" width="8.00" height="14.00" rx="0" fill="#c4654a" stroke="#241e18" stroke-width="0.8"/>
+  <rect x="206.00" y="518.00" width="8.00" height="14.00" rx="0" fill="#3d6b58" stroke="#241e18" stroke-width="0.8"/>
+  <text x="36.0" y="572.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Little depth. A picture on one face.</text>
+  <ellipse cx="630" cy="300" rx="92" ry="118" fill="#f6e6d4" stroke="#241e18" stroke-width="1.8"/>
+  <ellipse cx="630" cy="300" rx="26" ry="116" fill="none" stroke="#5c564c" stroke-width="1.15" stroke-dasharray="4 3"/>
+  <polygon points="630.00,349.56 621.83,346.02 615.16,342.48 609.00,338.94 603.24,335.40 597.88,331.86 592.94,328.32 588.46,324.78 584.48,321.24 581.04,317.70 578.18,314.16 575.91,310.62 574.28,307.08 573.29,303.54 572.96,300.00 573.29,296.46 574.28,292.92 575.91,289.38 578.18,285.84 581.04,282.30 584.48,278.76 588.46,275.22 592.94,271.68 597.88,268.14 603.24,264.60 609.00,261.06 615.16,257.52 621.83,253.98 630.00,250.44 630.00,250.44 630.00,253.98 630.00,257.52 630.00,261.06 630.00,264.60 630.00,268.14 630.00,271.68 630.00,275.22 630.00,278.76 630.00,282.30 630.00,285.84 630.00,289.38 630.00,292.92 630.00,296.46 630.00,300.00 630.00,303.54 630.00,307.08 630.00,310.62 630.00,314.16 630.00,317.70 630.00,321.24 630.00,324.78 630.00,328.32 630.00,331.86 630.00,335.40 630.00,338.94 630.00,342.48 630.00,346.02 630.00,349.56" fill="#c4654a" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <polygon points="630.00,349.56 638.17,346.02 644.84,342.48 651.00,338.94 656.76,335.40 662.12,331.86 667.06,328.32 671.54,324.78 675.52,321.24 678.96,317.70 681.82,314.16 684.09,310.62 685.72,307.08 686.71,303.54 687.04,300.00 686.71,296.46 685.72,292.92 684.09,289.38 681.82,285.84 678.96,282.30 675.52,278.76 671.54,275.22 667.06,271.68 662.12,268.14 656.76,264.60 651.00,261.06 644.84,257.52 638.17,253.98 630.00,250.44 630.00,250.44 630.00,253.98 630.00,257.52 630.00,261.06 630.00,264.60 630.00,268.14 630.00,271.68 630.00,275.22 630.00,278.76 630.00,282.30 630.00,285.84 630.00,289.38 630.00,292.92 630.00,296.46 630.00,300.00 630.00,303.54 630.00,307.08 630.00,310.62 630.00,314.16 630.00,317.70 630.00,321.24 630.00,324.78 630.00,328.32 630.00,331.86 630.00,335.40 630.00,338.94 630.00,342.48 630.00,346.02 630.00,349.56" fill="#3d6b58" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M 630.00 349.56 L 621.83 346.02 L 615.16 342.48 L 609.00 338.94 L 603.24 335.40 L 597.88 331.86 L 592.94 328.32 L 588.46 324.78 L 584.48 321.24 L 581.04 317.70 L 578.18 314.16 L 575.91 310.62 L 574.28 307.08 L 573.29 303.54 L 572.96 300.00 L 573.29 296.46 L 574.28 292.92 L 575.91 289.38 L 578.18 285.84 L 581.04 282.30 L 584.48 278.76 L 588.46 275.22 L 592.94 271.68 L 597.88 268.14 L 603.24 264.60 L 609.00 261.06 L 615.16 257.52 L 621.83 253.98 L 630.00 250.44 L 630.00 250.44 L 638.17 253.98 L 644.84 257.52 L 651.00 261.06 L 656.76 264.60 L 662.12 268.14 L 667.06 271.68 L 671.54 275.22 L 675.52 278.76 L 678.96 282.30 L 681.82 285.84 L 684.09 289.38 L 685.72 292.92 L 686.71 296.46 L 687.04 300.00 L 686.71 303.54 L 685.72 307.08 L 684.09 310.62 L 681.82 314.16 L 678.96 317.70 L 675.52 321.24 L 671.54 324.78 L 667.06 328.32 L 662.12 331.86 L 656.76 335.40 L 651.00 338.94 L 644.84 342.48 L 638.17 346.02 L 630.00 349.56" fill="none" stroke="#241e18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 630.00 349.56 L 621.83 346.02 L 615.16 342.48 L 609.00 338.94 L 603.24 335.40 L 597.88 331.86 L 592.94 328.32 L 588.46 324.78 L 584.48 321.24 L 581.04 317.70 L 578.18 314.16 L 575.91 310.62 L 574.28 307.08 L 573.29 303.54 L 572.96 300.00 L 573.29 296.46 L 574.28 292.92 L 575.91 289.38 L 578.18 285.84 L 581.04 282.30 L 584.48 278.76 L 588.46 275.22 L 592.94 271.68 L 597.88 268.14 L 603.24 264.60 L 609.00 261.06 L 615.16 257.52 L 621.83 253.98 L 630.00 250.44 L 630.00 250.44 L 638.17 253.98 L 644.84 257.52 L 651.00 261.06 L 656.76 264.60 L 662.12 268.14 L 667.06 271.68 L 671.54 275.22 L 675.52 278.76 L 678.96 282.30 L 681.82 285.84 L 684.09 289.38 L 685.72 292.92 L 686.71 296.46 L 687.04 300.00 L 686.71 303.54 L 685.72 307.08 L 684.09 310.62 L 681.82 314.16 L 678.96 317.70 L 675.52 321.24 L 671.54 324.78 L 667.06 328.32 L 662.12 331.86 L 656.76 335.40 L 651.00 338.94 L 644.84 342.48 L 638.17 346.02 L 630.00 349.56" fill="none" stroke="#6a5d50" stroke-width="1.7000000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 630.00 349.56 L 630.00 346.02 L 630.00 342.48 L 630.00 338.94 L 630.00 335.40 L 630.00 331.86 L 630.00 328.32 L 630.00 324.78 L 630.00 321.24 L 630.00 317.70 L 630.00 314.16 L 630.00 310.62 L 630.00 307.08 L 630.00 303.54 L 630.00 300.00 L 630.00 296.46 L 630.00 292.92 L 630.00 289.38 L 630.00 285.84 L 630.00 282.30 L 630.00 278.76 L 630.00 275.22 L 630.00 271.68 L 630.00 268.14 L 630.00 264.60 L 630.00 261.06 L 630.00 257.52 L 630.00 253.98 L 630.00 250.44" fill="none" stroke="#241e18" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 630.00 349.56 L 630.00 346.02 L 630.00 342.48 L 630.00 338.94 L 630.00 335.40 L 630.00 331.86 L 630.00 328.32 L 630.00 324.78 L 630.00 321.24 L 630.00 317.70 L 630.00 314.16 L 630.00 310.62 L 630.00 307.08 L 630.00 303.54 L 630.00 300.00 L 630.00 296.46 L 630.00 292.92 L 630.00 289.38 L 630.00 285.84 L 630.00 282.30 L 630.00 278.76 L 630.00 275.22 L 630.00 271.68 L 630.00 268.14 L 630.00 264.60 L 630.00 261.06 L 630.00 257.52 L 630.00 253.98 L 630.00 250.44" fill="none" stroke="#6a5d50" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 563.70 329.95 L 567.83 330.86 L 572.31 331.71 L 577.11 332.49 L 582.21 333.21 L 587.58 333.85 L 593.18 334.41 L 599.00 334.89 L 604.99 335.29 L 611.12 335.60 L 617.35 335.82 L 623.66 335.96 L 630.00 336.00 L 636.34 335.96 L 642.65 335.82 L 648.88 335.60 L 655.01 335.29 L 661.00 334.89 L 666.82 334.41 L 672.42 333.85 L 677.79 333.21 L 682.89 332.49 L 687.69 331.71 L 692.17 330.86 L 696.30 329.95" fill="none" stroke="#241e18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450.0" y="450.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Grooves follow the form</text>
+  <text x="450.0" y="540.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Side view</text>
+  <circle cx="510.00" cy="600.00" r="32.00" fill="#f6e6d4" stroke="#241e18" stroke-width="1.6"/>
+  <line x1="478.00" y1="600.00" x2="542.00" y2="600.00" stroke="#5c564c" stroke-width="1" fill="none" stroke-dasharray="3 3"/>
+  <line x1="510.00" y1="568.00" x2="510.00" y2="632.00" stroke="#5c564c" stroke-width="1" fill="none" stroke-dasharray="3 3"/>
+  <text x="556.0" y="596.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">The form has depth.</text>
+  <text x="450.0" y="660.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Often carved wood. Not a flat picture.</text>
+  <text x="36.0" y="760.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Same gesture: tuck cloth into a groove. Different object.</text>
+  <text x="36.0" y="792.0" fill="#241e18" font-size="16" font-weight="500" text-anchor="start">This site teaches the flat board only.</text>
+  <text x="36.0" y="840.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">The volume is a diagram of the difference, not a doll for sale.</text>
 </svg>

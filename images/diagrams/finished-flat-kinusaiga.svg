@@ -1,63 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" font-family="Segoe UI, system-ui, sans-serif">
-  <title>Schematic of a finished flat kinusaiga</title>
-  <desc>Schematic diagram of a finished flat kinusaiga: large simple fabric shapes on a foam board, with a side section showing cloth tucked into grooves. Not a photo of a finished product or an item for sale.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 980" width="840" height="980" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Finished flat panel</title>
+  <desc>Schematic of a finished flat kinusaiga panel. Fabric pieces are tucked into scored grooves on a foam board. Not a photograph and not an item for sale.</desc>
   <defs>
-    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
-      <rect width="10" height="10" fill="#f3eadc"/>
-      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="640" height="760" fill="#fffcf6"/>
-  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
-  <text x="200" y="40" fill="#5e574e" font-size="18">Finished flat kinusaiga &#8212; front view</text>
-
-  <!-- Flat board, front -->
-  <rect x="110" y="64" width="420" height="336" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <rect x="134" y="88" width="372" height="288" fill="#f4e6c4" stroke="#1e1a16" stroke-width="3"/>
-  <rect x="134" y="268" width="372" height="108" fill="#3d6b58" stroke="#1e1a16" stroke-width="3"/>
-  <circle cx="230" cy="176" r="64" fill="#c4654a" stroke="#1e1a16" stroke-width="3"/>
-  <rect x="318" y="200" width="120" height="68" fill="#ead7b0" stroke="#1e1a16" stroke-width="3"/>
-  <polygon points="302,200 378,132 454,200" fill="#8d4e3c" stroke="#1e1a16" stroke-width="3" stroke-linejoin="miter"/>
-
-  <!-- Legend -->
-  <rect x="32" y="420" width="18" height="18" fill="#c4654a" stroke="#1e1a16"/>
-  <text x="58" y="435" fill="#1e1a16" font-size="16">Fabric shape</text>
-  <line x1="196" y1="429" x2="228" y2="429" stroke="#1e1a16" stroke-width="3"/>
-  <text x="236" y="435" fill="#1e1a16" font-size="16">Groove</text>
-  <rect x="330" y="420" width="18" height="18" fill="url(#foam)" stroke="#1e1a16"/>
-  <text x="356" y="435" fill="#1e1a16" font-size="16">Foam margin</text>
-  <text x="32" y="468" fill="#5e574e" font-size="16">Large simple shapes on one flat face. Dark lines are tucked grooves.</text>
-
-  <!-- Side section -->
-  <text x="32" y="512" fill="#1e1a16" font-size="18" font-weight="700">Side section</text>
-  <text x="180" y="512" fill="#5e574e" font-size="16">Typical tuck. Not a slice through the drawing above.</text>
-
-  <line x1="78" y1="536" x2="78" y2="560" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="72" y1="536" x2="84" y2="536" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="72" y1="560" x2="84" y2="560" stroke="#5e574e" stroke-width="1.5"/>
-  <text x="28" y="528" fill="#5e574e" font-size="14">~1/4 in</text>
-
-  <line x1="108" y1="536" x2="108" y2="648" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="102" y1="536" x2="114" y2="536" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="102" y1="648" x2="114" y2="648" stroke="#5e574e" stroke-width="1.5"/>
-  <text x="36" y="600" fill="#5e574e" font-size="14">~1 in</text>
-
-  <rect x="132" y="536" width="476" height="112" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <rect x="250" y="536" width="22" height="30" fill="#e7dccb" stroke="#1e1a16" stroke-width="1.5"/>
-  <rect x="430" y="536" width="22" height="30" fill="#e7dccb" stroke="#1e1a16" stroke-width="1.5"/>
-
-  <rect x="132" y="522" width="118" height="14" fill="#c4654a"/>
-  <rect x="250" y="528" width="10" height="34" fill="#c4654a"/>
-  <rect x="262" y="528" width="10" height="34" fill="#f4e6c4"/>
-  <rect x="272" y="522" width="158" height="14" fill="#f4e6c4"/>
-  <rect x="430" y="528" width="10" height="34" fill="#f4e6c4"/>
-  <rect x="442" y="528" width="10" height="34" fill="#3d6b58"/>
-  <rect x="452" y="522" width="156" height="14" fill="#3d6b58"/>
-
-  <line x1="271" y1="562" x2="271" y2="590" stroke="#5e574e" stroke-width="1.25"/>
-  <line x1="271" y1="590" x2="300" y2="590" stroke="#5e574e" stroke-width="1.25"/>
-  <text x="308" y="594" fill="#1e1a16" font-size="16">Tucked edge</text>
-
-  <text x="32" y="692" fill="#1e1a16" font-size="16">The finished piece is a flat board. It is not a three-dimensional form.</text>
-  <text x="32" y="720" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="980" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Finished flat panel</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">A shallow view of the board, then the seam enlarged.</text>
+  <polygon points="599.81,350.00 417.94,245.00 417.94,205.00 599.81,310.00" fill="url(#foamDark)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="340.00,500.00 599.81,350.00 599.81,310.00 340.00,460.00" fill="url(#foamSide)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="342.60" y1="491.50" x2="597.21" y2="344.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="597.21" y1="341.50" x2="420.54" y2="239.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="342.60" y1="483.50" x2="597.21" y2="336.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="597.21" y1="333.50" x2="420.54" y2="231.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="342.60" y1="475.50" x2="597.21" y2="328.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="597.21" y1="325.50" x2="420.54" y2="223.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="342.60" y1="467.50" x2="597.21" y2="320.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="597.21" y1="317.50" x2="420.54" y2="215.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="342.60" y1="459.50" x2="597.21" y2="312.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="597.21" y1="309.50" x2="420.54" y2="207.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <polygon points="340.00,460.00 599.81,310.00 417.94,205.00 158.13,355.00" fill="url(#foam)" stroke="#241e18" stroke-width="1.7" stroke-linejoin="round"/>
+  <polygon points="344.50,436.60 559.28,312.60 412.31,227.75 197.54,351.75" fill="#f4e6c6" stroke="#241e18" stroke-width="1.2" stroke-linejoin="round"/>
+  <polygon points="438.03,366.60 427.47,368.76 417.72,370.45 408.33,371.94 399.22,373.26 390.41,374.42 381.88,375.40 373.67,376.21 365.78,376.83 358.25,377.24 351.08,377.44 344.31,377.41 337.95,377.15 332.02,376.64 326.52,375.88 321.47,374.85 316.89,373.57 312.77,372.01 309.13,370.18 305.95,368.07 303.25,365.69 301.02,363.05 299.25,360.13 297.93,356.96 297.05,353.53 296.59,349.86 296.54,345.95 296.89,341.81 297.61,337.47 298.67,332.91 300.07,328.17 301.78,323.25 303.78,318.16 306.06,312.90 308.64,307.48 311.57,301.85 315.32,295.75 315.32,295.75 318.73,297.72 322.14,299.69 325.54,301.65 328.95,303.62 332.36,305.59 335.77,307.56 339.18,309.53 342.59,311.49 346.00,313.46 349.41,315.43 352.81,317.40 356.22,319.37 359.63,321.33 363.04,323.30 366.45,325.27 369.86,327.24 373.27,329.21 376.68,331.18 380.08,333.14 383.49,335.11 386.90,337.08 390.31,339.05 393.72,341.02 397.13,342.98 400.54,344.95 403.95,346.92 407.36,348.89 410.76,350.86 414.17,352.82 417.58,354.79 420.99,356.76 424.40,358.73 427.81,360.70 431.22,362.66 434.63,364.63 438.03,366.60" fill="#c4654a" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <polygon points="438.03,366.60 441.78,360.50 444.71,354.87 447.29,349.45 449.57,344.19 451.57,339.10 453.28,334.18 454.68,329.44 455.75,324.88 456.46,320.54 456.81,316.40 456.76,312.49 456.31,308.82 455.42,305.39 454.10,302.22 452.33,299.30 450.10,296.66 447.40,294.28 444.23,292.18 440.58,290.34 436.46,288.78 431.88,287.50 426.83,286.47 421.34,285.71 415.40,285.20 409.04,284.94 402.27,284.91 395.11,285.11 387.57,285.52 379.69,286.14 371.47,286.95 362.95,287.93 354.13,289.09 345.02,290.41 335.63,291.90 325.88,293.59 315.32,295.75 315.32,295.75 318.73,297.72 322.14,299.69 325.54,301.65 328.95,303.62 332.36,305.59 335.77,307.56 339.18,309.53 342.59,311.49 346.00,313.46 349.41,315.43 352.81,317.40 356.22,319.37 359.63,321.33 363.04,323.30 366.45,325.27 369.86,327.24 373.27,329.21 376.68,331.18 380.08,333.14 383.49,335.11 386.90,337.08 390.31,339.05 393.72,341.02 397.13,342.98 400.54,344.95 403.95,346.92 407.36,348.89 410.76,350.86 414.17,352.82 417.58,354.79 420.99,356.76 424.40,358.73 427.81,360.70 431.22,362.66 434.63,364.63 438.03,366.60" fill="#3d6b58" stroke="#241e18" stroke-width="1.1" stroke-linejoin="round"/>
+  <path d="M 438.03 366.60 L 427.47 368.76 L 417.72 370.45 L 408.33 371.94 L 399.22 373.26 L 390.41 374.42 L 381.88 375.40 L 373.67 376.21 L 365.78 376.83 L 358.25 377.24 L 351.08 377.44 L 344.31 377.41 L 337.95 377.15 L 332.02 376.64 L 326.52 375.88 L 321.47 374.85 L 316.89 373.57 L 312.77 372.01 L 309.13 370.18 L 305.95 368.07 L 303.25 365.69 L 301.02 363.05 L 299.25 360.13 L 297.93 356.96 L 297.05 353.53 L 296.59 349.86 L 296.54 345.95 L 296.89 341.81 L 297.61 337.47 L 298.67 332.91 L 300.07 328.17 L 301.78 323.25 L 303.78 318.16 L 306.06 312.90 L 308.64 307.48 L 311.57 301.85 L 315.32 295.75 L 315.32 295.75 L 325.88 293.59 L 335.63 291.90 L 345.02 290.41 L 354.13 289.09 L 362.95 287.93 L 371.47 286.95 L 379.69 286.14 L 387.57 285.52 L 395.11 285.11 L 402.27 284.91 L 409.04 284.94 L 415.40 285.20 L 421.34 285.71 L 426.83 286.47 L 431.88 287.50 L 436.46 288.78 L 440.58 290.34 L 444.23 292.18 L 447.40 294.28 L 450.10 296.66 L 452.33 299.30 L 454.10 302.22 L 455.42 305.39 L 456.31 308.82 L 456.76 312.49 L 456.81 316.40 L 456.46 320.54 L 455.75 324.88 L 454.68 329.44 L 453.28 334.18 L 451.57 339.10 L 449.57 344.19 L 447.29 349.45 L 444.71 354.87 L 441.78 360.50 L 438.03 366.60" fill="none" stroke="#241e18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 438.03 366.60 L 427.47 368.76 L 417.72 370.45 L 408.33 371.94 L 399.22 373.26 L 390.41 374.42 L 381.88 375.40 L 373.67 376.21 L 365.78 376.83 L 358.25 377.24 L 351.08 377.44 L 344.31 377.41 L 337.95 377.15 L 332.02 376.64 L 326.52 375.88 L 321.47 374.85 L 316.89 373.57 L 312.77 372.01 L 309.13 370.18 L 305.95 368.07 L 303.25 365.69 L 301.02 363.05 L 299.25 360.13 L 297.93 356.96 L 297.05 353.53 L 296.59 349.86 L 296.54 345.95 L 296.89 341.81 L 297.61 337.47 L 298.67 332.91 L 300.07 328.17 L 301.78 323.25 L 303.78 318.16 L 306.06 312.90 L 308.64 307.48 L 311.57 301.85 L 315.32 295.75 L 315.32 295.75 L 325.88 293.59 L 335.63 291.90 L 345.02 290.41 L 354.13 289.09 L 362.95 287.93 L 371.47 286.95 L 379.69 286.14 L 387.57 285.52 L 395.11 285.11 L 402.27 284.91 L 409.04 284.94 L 415.40 285.20 L 421.34 285.71 L 426.83 286.47 L 431.88 287.50 L 436.46 288.78 L 440.58 290.34 L 444.23 292.18 L 447.40 294.28 L 450.10 296.66 L 452.33 299.30 L 454.10 302.22 L 455.42 305.39 L 456.31 308.82 L 456.76 312.49 L 456.81 316.40 L 456.46 320.54 L 455.75 324.88 L 454.68 329.44 L 453.28 334.18 L 451.57 339.10 L 449.57 344.19 L 447.29 349.45 L 444.71 354.87 L 441.78 360.50 L 438.03 366.60" fill="none" stroke="#6a5d50" stroke-width="2.04" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 438.03 366.60 L 434.63 364.63 L 431.22 362.66 L 427.81 360.70 L 424.40 358.73 L 420.99 356.76 L 417.58 354.79 L 414.17 352.82 L 410.76 350.86 L 407.36 348.89 L 403.95 346.92 L 400.54 344.95 L 397.13 342.98 L 393.72 341.02 L 390.31 339.05 L 386.90 337.08 L 383.49 335.11 L 380.08 333.14 L 376.68 331.18 L 373.27 329.21 L 369.86 327.24 L 366.45 325.27 L 363.04 323.30 L 359.63 321.33 L 356.22 319.37 L 352.81 317.40 L 349.41 315.43 L 346.00 313.46 L 342.59 311.49 L 339.18 309.53 L 335.77 307.56 L 332.36 305.59 L 328.95 303.62 L 325.54 301.65 L 322.14 299.69 L 318.73 297.72 L 315.32 295.75" fill="none" stroke="#241e18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 438.03 366.60 L 434.63 364.63 L 431.22 362.66 L 427.81 360.70 L 424.40 358.73 L 420.99 356.76 L 417.58 354.79 L 414.17 352.82 L 410.76 350.86 L 407.36 348.89 L 403.95 346.92 L 400.54 344.95 L 397.13 342.98 L 393.72 341.02 L 390.31 339.05 L 386.90 337.08 L 383.49 335.11 L 380.08 333.14 L 376.68 331.18 L 373.27 329.21 L 369.86 327.24 L 366.45 325.27 L 363.04 323.30 L 359.63 321.33 L 356.22 319.37 L 352.81 317.40 L 349.41 315.43 L 346.00 313.46 L 342.59 311.49 L 339.18 309.53 L 335.77 307.56 L 332.36 305.59 L 328.95 303.62 L 325.54 301.65 L 322.14 299.69 L 318.73 297.72 L 315.32 295.75" fill="none" stroke="#6a5d50" stroke-width="1.87" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 344.50 436.60 L 559.28 312.60 L 412.31 227.75 L 197.54 351.75 L 344.50 436.60" fill="none" stroke="#241e18" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 344.50 436.60 L 559.28 312.60 L 412.31 227.75 L 197.54 351.75 L 344.50 436.60" fill="none" stroke="#6a5d50" stroke-width="1.7000000000000002" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="329.39" cy="358.48" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="329.39" y1="358.48" x2="179.39" y2="328.48" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="171.4" y="333.5" fill="#241e18" font-size="15" font-weight="500" text-anchor="end">Fabric piece</text>
+  <circle cx="376.68" cy="331.18" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="376.68" y1="331.18" x2="536.68" y2="295.18" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="544.7" y="300.2" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Seam in the groove</text>
+  <circle cx="599.81" cy="310.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="599.81" y1="310.00" x2="689.81" y2="318.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="697.8" y="323.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Foam margin</text>
+  <text x="36.0" y="560.0" fill="#241e18" font-size="20" font-weight="700" text-anchor="start">Seam, enlarged</text>
+  <text x="230.0" y="560.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">The channel is cut through the face. Adhesive stops at the lip.</text>
+  <rect x="70.00" y="600.00" width="700.00" height="168.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <rect x="392.00" y="600.00" width="36.00" height="42.00" rx="0" fill="#fbf7f0" stroke="#241e18" stroke-width="1.6"/>
+  <rect x="70.00" y="592.00" width="322.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1"/>
+  <rect x="428.00" y="592.00" width="342.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1"/>
+  <rect x="70.00" y="578.00" width="328.00" height="14.00" rx="0" fill="#c4654a" stroke="#241e18" stroke-width="1.1"/>
+  <rect x="394.00" y="586.00" width="15.00" height="48.00" rx="0" fill="#c4654a" stroke="#241e18" stroke-width="1"/>
+  <rect x="411.00" y="586.00" width="15.00" height="48.00" rx="0" fill="#3d6b58" stroke="#241e18" stroke-width="1"/>
+  <rect x="436.00" y="578.00" width="334.00" height="14.00" rx="0" fill="#3d6b58" stroke="#241e18" stroke-width="1.1"/>
+  <line x1="444.00" y1="600.00" x2="444.00" y2="642.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <line x1="438.00" y1="600.00" x2="450.00" y2="600.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <line x1="438.00" y1="642.00" x2="450.00" y2="642.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <text x="454.0" y="626.0" fill="#241e18" font-size="14" font-weight="500" text-anchor="start">~1/4 in</text>
+  <text x="70.0" y="804.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Both edges share the groove.</text>
+  <text x="70.0" y="830.0" fill="#5c564c" font-size="16" font-weight="500" text-anchor="start">Flat board. Not a three-dimensional form.</text>
 </svg>

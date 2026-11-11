@@ -1,68 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 790" width="640" height="790" font-family="Segoe UI, system-ui, sans-serif">
-  <title>Schematic of scoring grooves in foam</title>
-  <desc>Schematic diagram of scoring a shallow groove through a paper pattern into about 1 inch of foam, about 1/4 inch deep. Not a photo of a product or an item for sale.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1040" width="840" height="1040" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Scoring the groove</title>
+  <desc>Schematic of scoring a groove about 1/4 inch deep into about 1 inch of foam, through the pattern and liner. Not a photograph and not an item for sale.</desc>
   <defs>
-    <pattern id="foam" patternUnits="userSpaceOnUse" width="10" height="10">
-      <rect width="10" height="10" fill="#f3eadc"/>
-      <path d="M-1 1 l2 -2 M0 10 L10 0 M9 11 l2 -2" stroke="#e4d5c2" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="640" height="790" fill="#fffcf6"/>
-  <text x="32" y="40" fill="#1e1a16" font-size="22" font-weight="700">Schematic</text>
-  <text x="200" y="40" fill="#5e574e" font-size="18">Scoring grooves</text>
-
-  <text x="32" y="84" fill="#1e1a16" font-size="18" font-weight="700">1. Top view</text>
-  <text x="172" y="84" fill="#5e574e" font-size="16">Pattern on the liner. Score every drawn line.</text>
-
-  <rect x="72" y="108" width="496" height="230" fill="#fffdf8" stroke="#1e1a16" stroke-width="2"/>
-  <circle cx="210" cy="214" r="62" fill="none" stroke="#5e574e" stroke-width="1.75" stroke-dasharray="6 5"/>
-  <rect x="300" y="188" width="130" height="70" fill="none" stroke="#5e574e" stroke-width="1.75" stroke-dasharray="6 5"/>
-  <polyline points="284,188 365,132 446,188" fill="none" stroke="#5e574e" stroke-width="1.75" stroke-dasharray="6 5"/>
-  <!-- one line already opened into a groove -->
-  <rect x="300" y="252" width="92" height="8" fill="#1e1a16"/>
-  <line x1="392" y1="256" x2="430" y2="256" stroke="#5e574e" stroke-width="1.75" stroke-dasharray="6 5"/>
-
-  <g transform="translate(430,248) rotate(-32)">
-    <rect x="0" y="-11" width="92" height="22" rx="5" fill="#4a4038" stroke="#1e1a16"/>
-    <rect x="84" y="-7" width="16" height="14" fill="#8a8178" stroke="#1e1a16"/>
-    <polygon points="100,-2.5 138,0 100,2.5" fill="#ece8e2" stroke="#1e1a16" stroke-linejoin="miter"/>
-  </g>
-
-  <line x1="210" y1="292" x2="210" y2="352" stroke="#5e574e" stroke-width="1.25"/>
-  <text x="200" y="368" fill="#1e1a16" font-size="16">Drawn shape</text>
-  <line x1="346" y1="260" x2="346" y2="368" stroke="#5e574e" stroke-width="1.25"/>
-  <text x="300" y="390" fill="#1e1a16" font-size="16">Groove already scored</text>
-  <text x="456" y="200" fill="#1e1a16" font-size="16">Craft knife</text>
-
-  <text x="32" y="440" fill="#1e1a16" font-size="18" font-weight="700">2. Section</text>
-  <text x="148" y="440" fill="#5e574e" font-size="16">Cut a slot. Do not separate the board.</text>
-
-  <!-- layer stack -->
-  <rect x="150" y="468" width="360" height="16" fill="#fffdf8" stroke="#1e1a16" stroke-width="1.5"/>
-  <rect x="150" y="484" width="360" height="14" fill="#f7f1e6" stroke="#1e1a16" stroke-width="1.5"/>
-  <rect x="150" y="498" width="360" height="10" fill="#c4923a" stroke="#1e1a16" stroke-width="1.5"/>
-  <rect x="150" y="508" width="360" height="140" fill="url(#foam)" stroke="#1e1a16" stroke-width="2"/>
-  <!-- empty groove through the stack, 1/4 of the foam -->
-  <rect x="300" y="468" width="16" height="76" fill="#fffcf6" stroke="#1e1a16" stroke-width="1.75"/>
-
-  <polygon points="300,450 316,450 308,468" fill="#ece8e2" stroke="#1e1a16" stroke-linejoin="miter"/>
-
-  <text x="32" y="482" fill="#5e574e" font-size="15">Paper pattern</text>
-  <text x="32" y="498" fill="#5e574e" font-size="15">Liner, still on</text>
-  <text x="32" y="516" fill="#5e574e" font-size="15">Adhesive</text>
-  <text x="32" y="580" fill="#5e574e" font-size="15">Foam</text>
-
-  <line x1="528" y1="508" x2="528" y2="648" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="522" y1="508" x2="534" y2="508" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="522" y1="648" x2="534" y2="648" stroke="#5e574e" stroke-width="1.5"/>
-  <text x="540" y="584" fill="#5e574e" font-size="15">~1 in</text>
-
-  <line x1="336" y1="508" x2="336" y2="544" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="330" y1="508" x2="342" y2="508" stroke="#5e574e" stroke-width="1.5"/>
-  <line x1="330" y1="544" x2="342" y2="544" stroke="#5e574e" stroke-width="1.5"/>
-  <text x="348" y="532" fill="#1e1a16" font-size="15">~1/4 in</text>
-
-  <text x="32" y="688" fill="#1e1a16" font-size="16">Stop while foam remains under the groove.</text>
-  <text x="32" y="714" fill="#1e1a16" font-size="16">A break through the back ruins the board.</text>
-  <text x="32" y="752" fill="#5e574e" font-size="16">Schematic diagram &#8212; not a photo of a finished product or item for sale.</text>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="1040" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Scoring the groove</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">The knife follows the drawn line. The section shows how deep the channel is.</text>
+  <text x="36.0" y="130.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">1   Along the line</text>
+  <polygon points="522.49,290.00 375.26,205.00 375.26,173.00 522.49,258.00" fill="url(#foamDark)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <polygon points="280.00,430.00 522.49,290.00 522.49,258.00 280.00,398.00" fill="url(#foamSide)" stroke="#241e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="282.60" y1="421.50" x2="519.89" y2="284.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="519.89" y1="281.50" x2="377.86" y2="199.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="282.60" y1="413.50" x2="519.89" y2="276.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="519.89" y1="273.50" x2="377.86" y2="191.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="282.60" y1="405.50" x2="519.89" y2="268.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="519.89" y1="265.50" x2="377.86" y2="183.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <line x1="282.60" y1="397.50" x2="519.89" y2="260.50" stroke="#cbbba4" stroke-width="0.9" fill="none"/>
+  <line x1="519.89" y1="257.50" x2="377.86" y2="175.50" stroke="#b7a48c" stroke-width="0.9" fill="none"/>
+  <polygon points="280.00,398.00 522.49,258.00 375.26,173.00 132.78,313.00" fill="url(#foam)" stroke="#241e18" stroke-width="1.7" stroke-linejoin="round"/>
+  <polygon points="281.73,387.00 503.43,259.00 375.26,185.00 153.56,313.00" fill="#fffcf6" stroke="#241e18" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M 238.43 338.00 L 406.44 241.00" fill="none" stroke="#5c564c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
+  <path d="M 238.43 338.00 L 319.84 291.00" fill="none" stroke="#241e18" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 238.43 338.00 L 319.84 291.00" fill="none" stroke="#6a5d50" stroke-width="2.72" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(169.8 299.0) rotate(-32)"><rect x="0" y="-12.0" width="114.1" height="23.9" rx="7.4" fill="#3a342e" stroke="#241e18" stroke-width="1.5"/><line x1="25.8" y1="-7.4" x2="25.8" y2="7.4" stroke="#5a5148" stroke-width="1.3"/><line x1="42.3" y1="-7.4" x2="42.3" y2="7.4" stroke="#5a5148" stroke-width="1.3"/><line x1="58.9" y1="-7.4" x2="58.9" y2="7.4" stroke="#5a5148" stroke-width="1.3"/><line x1="75.4" y1="-7.4" x2="75.4" y2="7.4" stroke="#5a5148" stroke-width="1.3"/><rect x="106.7" y="-7.4" width="16.6" height="14.7" fill="#d9d4cc" stroke="#241e18" stroke-width="1.3"/><polygon points="123.3,-2.0 173.0,0 123.3,2.0" fill="#d9d4cc" stroke="#241e18" stroke-width="1.2" stroke-linejoin="round"/><line x1="138.0" y1="-1.8" x2="138.0" y2="1.8" stroke="#6e6860" stroke-width="0.8"/><line x1="150.9" y1="-1.8" x2="150.9" y2="1.8" stroke="#6e6860" stroke-width="0.8"/></g>
+  <g transform="translate(169.8 299.0) rotate(-32)"><rect x="23.9" y="-27.6" width="14.7" height="22.1" rx="6.4" fill="#f0d2b8" stroke="#241e18" stroke-width="1.3"/><rect x="44.2" y="-27.6" width="14.7" height="22.1" rx="6.4" fill="#f0d2b8" stroke="#241e18" stroke-width="1.3"/><rect x="64.4" y="-27.6" width="14.7" height="22.1" rx="6.4" fill="#f0d2b8" stroke="#241e18" stroke-width="1.3"/><ellipse cx="14.7" cy="11.0" rx="12.0" ry="7.4" fill="#f0d2b8" stroke="#241e18" stroke-width="1.3"/></g>
+  <circle cx="329.84" cy="291.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="329.84" y1="291.00" x2="640.00" y2="150.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="648.0" y="155.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Blade in the line</text>
+  <text x="36.0" y="455.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">The dark slot is the channel already cut. The dashes are still to score.</text>
+  <text x="620.0" y="200.0" fill="#241e18" font-size="15" font-weight="700" text-anchor="start">Move this way</text>
+  <line x1="333.69" y1="269.00" x2="389.12" y2="237.00" stroke="#241e18" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+  <text x="36.0" y="500.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">2   How deep</text>
+  <text x="200.0" y="500.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Cut a slot. Do not separate the board.</text>
+  <rect x="200.00" y="540.00" width="460.00" height="14.00" rx="0" fill="#fffcf6" stroke="#241e18" stroke-width="1.3"/>
+  <rect x="200.00" y="554.00" width="460.00" height="12.00" rx="0" fill="#f6f1e6" stroke="#241e18" stroke-width="1.3"/>
+  <rect x="200.00" y="566.00" width="460.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1.3"/>
+  <rect x="200.00" y="574.00" width="460.00" height="150.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <rect x="410.00" y="540.00" width="18.00" height="72.00" rx="0" fill="#fbf7f0" stroke="#241e18" stroke-width="1.7"/>
+  <polygon points="402,532 436,532 419,566" fill="#d9d4cc" stroke="#241e18" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M 450 574 A 36 36 0 0 0 432 546" fill="none" stroke="#241e18" stroke-width="1.3"/>
+  <text x="458.0" y="556.0" fill="#241e18" font-size="14" font-weight="500" text-anchor="start">Tool angle</text>
+  <text x="36.0" y="552.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Paper pattern</text>
+  <text x="36.0" y="568.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Liner</text>
+  <text x="36.0" y="584.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">Adhesive</text>
+  <text x="36.0" y="644.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">XPS foam</text>
+  <line x1="688.00" y1="574.00" x2="688.00" y2="724.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="682.00" y1="574.00" x2="694.00" y2="574.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="682.00" y1="724.00" x2="694.00" y2="724.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <text x="698.0" y="654.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="start">~1 in</text>
+  <line x1="446.00" y1="574.00" x2="446.00" y2="612.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <line x1="440.00" y1="574.00" x2="452.00" y2="574.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <line x1="440.00" y1="612.00" x2="452.00" y2="612.00" stroke="#241e18" stroke-width="1.25" fill="none"/>
+  <text x="456.0" y="598.0" fill="#241e18" font-size="14" font-weight="500" text-anchor="start">~1/4 in</text>
+  <text x="438.0" y="632.0" fill="#241e18" font-size="14" font-weight="700" text-anchor="start">Stops in the foam</text>
+  <text x="36.0" y="900.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Stop while foam remains under the groove.</text>
+  <text x="36.0" y="928.0" fill="#5c564c" font-size="16" font-weight="500" text-anchor="start">A break through the back ruins the board.</text>
+  <text x="36.0" y="990.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Score every drawn line. Several scratches are not a slot.</text>
 </svg>
