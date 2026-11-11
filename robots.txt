@@ -1,0 +1,5 @@
+# Noindex preview skeleton. This file disallows every path.
+# No production host is configured. Do not publish this preview.
+
+User-agent: *
+Disallow: /
