@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 1080" width="840" height="1080" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Where the adhesive goes</title>
+  <desc>Schematic of applying a double-sided adhesive sheet to the foam face and peeling the liner for one shape. Adhesive is not packed into the groove. Not a photograph and not an item for sale.</desc>
+  <defs>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="1080" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Where the adhesive goes</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">A double-sided sheet on the foam face. The groove stays empty.</text>
+  <circle cx="52.00" cy="132.00" r="14.00" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <text x="52.0" y="137.0" fill="#fbf7f0" font-size="15" font-weight="700" text-anchor="middle">1</text>
+  <text x="78.0" y="138.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">Press the sheet onto the whole face</text>
+  <rect x="120.00" y="168.00" width="360.00" height="16.00" rx="0" fill="#fffdf8" stroke="#241e18" stroke-width="1.4"/>
+  <text x="500.0" y="181.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Top liner</text>
+  <rect x="120.00" y="190.00" width="360.00" height="12.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1.4"/>
+  <text x="500.0" y="201.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Adhesive</text>
+  <line x1="300.00" y1="210.00" x2="300.00" y2="246.00" stroke="#241e18" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+  <rect x="100.00" y="256.00" width="400.00" height="78.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <text x="520.0" y="300.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Foam face</text>
+  <text x="100.0" y="360.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Leave the liner on while you score.</text>
+  <circle cx="52.00" cy="410.00" r="14.00" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <text x="52.0" y="415.0" fill="#fbf7f0" font-size="15" font-weight="700" text-anchor="middle">2</text>
+  <text x="78.0" y="416.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">Peel one shape, not the whole sheet</text>
+  <rect x="78.00" y="444.00" width="420.00" height="250.00" rx="0" fill="#f6f1e6" stroke="#241e18" stroke-width="1.7"/>
+  <ellipse cx="250" cy="570" rx="78" ry="62" fill="#c4923a" stroke="#241e18" stroke-width="1.5"/>
+  <path d="M300 520 C360 500 430 540 418 610 C390 600 350 575 332 590 C348 560 320 540 300 520 Z" fill="#fffdf8" stroke="#241e18" stroke-width="1.5"/>
+  <circle cx="250.00" cy="570.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="250.00" y1="570.00" x2="560.00" y2="520.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="568.0" y="525.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Adhesive exposed</text>
+  <circle cx="390.00" cy="560.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="390.00" y1="560.00" x2="620.00" y2="600.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="628.0" y="605.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Liner peeled back</text>
+  <circle cx="140.00" cy="500.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="140.00" y1="500.00" x2="520.00" y2="460.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="528.0" y="465.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Liner still on</text>
+  <text x="78.0" y="720.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Dust sticks to adhesive you are not ready to cover.</text>
+  <circle cx="52.00" cy="770.00" r="14.00" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <text x="52.0" y="775.0" fill="#fbf7f0" font-size="15" font-weight="700" text-anchor="middle">3</text>
+  <text x="78.0" y="776.0" fill="#241e18" font-size="18" font-weight="700" text-anchor="start">After scoring, adhesive stays on the face</text>
+  <rect x="90.00" y="820.00" width="660.00" height="120.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <rect x="390.00" y="820.00" width="28.00" height="34.00" rx="0" fill="#fbf7f0" stroke="#241e18" stroke-width="1.6"/>
+  <rect x="90.00" y="812.00" width="300.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1.1"/>
+  <rect x="418.00" y="812.00" width="332.00" height="8.00" rx="0" fill="#c4923a" stroke="#241e18" stroke-width="1.1"/>
+  <rect x="418.00" y="802.00" width="200.00" height="10.00" rx="0" fill="#fffdf8" stroke="#241e18" stroke-width="1.1"/>
+  <path d="M320 802 L380 802 C 360 772, 300 776, 310 800" fill="#fffdf8" stroke="#241e18" stroke-width="1.3"/>
+  <line x1="70.00" y1="820.00" x2="70.00" y2="940.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="64.00" y1="820.00" x2="76.00" y2="820.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <line x1="64.00" y1="940.00" x2="76.00" y2="940.00" stroke="#5c564c" stroke-width="1.25" fill="none"/>
+  <text x="60.0" y="885.0" fill="#5c564c" font-size="14" font-weight="500" text-anchor="end">~1 in</text>
+  <circle cx="404.00" cy="836.00" r="3.20" fill="#241e18" stroke="#241e18" stroke-width="0"/>
+  <line x1="404.00" y1="836.00" x2="460.00" y2="890.00" stroke="#241e18" stroke-width="1.2" fill="none"/>
+  <text x="468.0" y="895.0" fill="#241e18" font-size="15" font-weight="500" text-anchor="start">Groove is empty</text>
+  <text x="100.0" y="804.0" fill="#241e18" font-size="14" font-weight="700" text-anchor="start">Adhesive on the face</text>
+  <text x="36.0" y="1020.0" fill="#241e18" font-size="16" font-weight="700" text-anchor="start">Do not fill the channel with adhesive. The tuck hides the edge.</text>
+  <text x="36.0" y="1048.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Peel the liner for one shape at a time.</text>
+</svg>

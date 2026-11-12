@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 680" width="840" height="680" font-family="Segoe UI, system-ui, sans-serif">
+  <title>Foam crushed</title>
+  <desc>Schematic comparing foam crushed by a dull blade with a clean groove cut by a sharp blade. Not a photograph and not an item for sale.</desc>
+  <defs>
+  <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#f4ebdc"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamSide" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#e7d8c4"/>
+    <path d="M0 9 L9 0" stroke="#cbbba4" stroke-width="0.8"/>
+  </pattern>
+  <pattern id="foamDark" patternUnits="userSpaceOnUse" width="9" height="9">
+    <rect width="9" height="9" fill="#d9c7b0"/>
+    <path d="M0 9 L9 0" stroke="#b7a48c" stroke-width="0.8"/>
+  </pattern>
+  <marker id="arr" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#241e18"/>
+  </marker>
+  <marker id="arrW" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#8f3d32"/>
+  </marker>
+  <marker id="arrR" viewBox="0 0 10 10" refX="8.2" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0 1.1 L9.2 5 L0 8.9 Z" fill="#1a4f3c"/>
+  </marker>
+</defs>
+  <rect width="840" height="680" fill="#fbf7f0"/>
+  <text x="36" y="34" fill="#5c564c" font-size="13" font-weight="700" letter-spacing="0.16em">SCHEMATIC</text>
+  <text x="36" y="66" fill="#241e18" font-size="26" font-weight="700">Foam crushed</text>
+  <text x="36" y="92" fill="#5c564c" font-size="16">A dull blade mashes the walls. A sharp blade leaves a channel.</text>
+  <rect x="28.00" y="120.00" width="384.00" height="510.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <rect x="428.00" y="120.00" width="384.00" height="510.00" rx="2" fill="#fffdf8" stroke="#e3d6c6" stroke-width="1.4"/>
+  <rect x="48.00" y="140.00" width="58.00" height="28.00" rx="3" fill="#f8ebe7" stroke="#8f3d32" stroke-width="1.4"/>
+  <text x="77.0" y="159.0" fill="#8f3d32" font-size="14" font-weight="700" text-anchor="middle">Wrong</text>
+  <rect x="448.00" y="140.00" width="58.00" height="28.00" rx="3" fill="#e7f0eb" stroke="#1a4f3c" stroke-width="1.4"/>
+  <text x="477.0" y="159.0" fill="#1a4f3c" font-size="14" font-weight="700" text-anchor="middle">Right</text>
+  <g transform="translate(90.0 230.0) rotate(-18)"><rect x="0" y="-9.4" width="89.3" height="18.7" rx="5.8" fill="#3a342e" stroke="#241e18" stroke-width="1.5"/><line x1="20.2" y1="-5.8" x2="20.2" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="33.1" y1="-5.8" x2="33.1" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="46.1" y1="-5.8" x2="46.1" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="59.0" y1="-5.8" x2="59.0" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><rect x="83.5" y="-5.8" width="13.0" height="11.5" fill="#d9d4cc" stroke="#241e18" stroke-width="1.3"/><path d="M96.5 0 Q 113.8 -5.8 121.0 0 Q 113.8 5.8 96.5 0 Z" fill="#b7b1a8" stroke="#241e18" stroke-width="1.3"/></g>
+  <text x="250.0" y="230.0" fill="#8f3d32" font-size="14" font-weight="500" text-anchor="start">Dull tip</text>
+  <rect x="70.00" y="280.00" width="300.00" height="130.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <path d="M196 280 C208 296 220 310 206 340 C220 328 248 318 256 280" fill="#e7dccb" stroke="#241e18" stroke-width="1.7"/>
+  <path d="M 90.00 258.00 L 340.00 258.00" fill="none" stroke="#c4654a" stroke-width="16" stroke-linecap="butt" stroke-linejoin="round"/>
+  <text x="70.0" y="450.0" fill="#8f3d32" font-size="16" font-weight="700" text-anchor="start">Walls collapse. Cloth stays on top.</text>
+  <text x="70.0" y="478.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Do not lean harder on a dull blade.</text>
+  <g transform="translate(490.0 220.0) rotate(-18)"><rect x="0" y="-9.4" width="89.3" height="18.7" rx="5.8" fill="#3a342e" stroke="#241e18" stroke-width="1.5"/><line x1="20.2" y1="-5.8" x2="20.2" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="33.1" y1="-5.8" x2="33.1" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="46.1" y1="-5.8" x2="46.1" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><line x1="59.0" y1="-5.8" x2="59.0" y2="5.8" stroke="#5a5148" stroke-width="1.3"/><rect x="83.5" y="-5.8" width="13.0" height="11.5" fill="#d9d4cc" stroke="#241e18" stroke-width="1.3"/><polygon points="96.5,-1.6 135.4,0 96.5,1.6" fill="#d9d4cc" stroke="#241e18" stroke-width="1.2" stroke-linejoin="round"/><line x1="108.0" y1="-1.4" x2="108.0" y2="1.4" stroke="#6e6860" stroke-width="0.8"/><line x1="118.1" y1="-1.4" x2="118.1" y2="1.4" stroke="#6e6860" stroke-width="0.8"/></g>
+  <text x="660.0" y="220.0" fill="#1a4f3c" font-size="14" font-weight="500" text-anchor="start">Sharp blade</text>
+  <rect x="470.00" y="280.00" width="300.00" height="130.00" rx="0" fill="url(#foam)" stroke="#241e18" stroke-width="1.8"/>
+  <rect x="608.00" y="280.00" width="22.00" height="40.00" rx="0" fill="#fbf7f0" stroke="#241e18" stroke-width="1.6"/>
+  <path d="M 500.00 258.00 L 610.00 258.00 L 618.00 268.00 L 620.00 312.00" fill="none" stroke="#c4654a" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="M 500.00 258.00 L 610.00 258.00 L 618.00 268.00 L 620.00 312.00" fill="none" stroke="#241e18" stroke-width="1.15" stroke-linecap="butt" stroke-linejoin="round"/>
+  <text x="470.0" y="450.0" fill="#1a4f3c" font-size="16" font-weight="700" text-anchor="start">Walls stay apart. The edge has a slot.</text>
+  <text x="470.0" y="478.0" fill="#5c564c" font-size="15" font-weight="500" text-anchor="start">Change the blade when the cut looks torn.</text>
+</svg>

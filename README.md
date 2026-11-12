@@ -1,25 +1,32 @@
-# Kinusaiga noindex preview skeleton
+# Kinusaiga noindex preview
 
-This repository holds a **noindex preview skeleton** for a kinusaiga (Japanese no-sew fabric art) tutorial site. It exists so people can review page structure and copy placement.
+This repository holds a **noindex preview** of a kinusaiga tutorial: follow-along pages for a first flat fabric picture on scored foam.
 
-It is not a live store, not a public launch, and not a checkout site.
+It is not a live shop, and it is not publicly hosted. Do not enable GitHub Pages, Vercel, Netlify, Cloudflare Workers, or a custom domain.
 
 - Every page is `noindex, nofollow`. `robots.txt` disallows all paths.
-- Payments are not connected. There is no cart, no checkout, and no order form.
-- No domain is connected. No production canonical URL is set. The canonical host is pending.
-- The shop is a placeholder with three categories only. No prices, stock counts, or SKUs are listed. The status line is “Coming once supply is confirmed.”
-- Do not deploy this preview publicly. Do not enable GitHub Pages, Vercel, Netlify, or any other public host, and do not attach a custom domain.
+- No domain is connected. No page sets a canonical URL.
+- Payments are not connected. There is no cart and no checkout.
+- The shop is a text list of three categories. No prices and no product images. The line under each category is “Coming once supply is confirmed.”
 
-## Routes in this batch
+## Routes
 
-- `/`
-- `/guides/kinusaiga-for-beginners`
-- `/guides/kinusaiga-foam-and-supplies`
-- `/guides/kinusaiga-vs-kimekomi`
-- `/guides/kinusaiga-kit-vs-materials`
-- `/shop`
+- `/` — what kinusaiga is, what to make first, and the learning path
+- `/guides/kinusaiga-vs-kimekomi` — flat foam picture or a three-dimensional form
+- `/guides/kinusaiga-foam-and-supplies` — board, adhesive, knife, and tucking tool
+- `/guides/kinusaiga-kit-vs-materials` — one box or separate materials, with no prices
+- `/guides/kinusaiga-first-pattern` — draw and transfer the first leaf
+- `/guides/kinusaiga-choosing-and-cutting-fabric` — cotton, grain, and the tuck margin
+- `/guides/kinusaiga-for-beginners` — the first session, through the last side
+- `/guides/kinusaiga-finishing-and-framing` — edges, frame, and hanging
+- `/guides/kinusaiga-troubleshooting` — shallow grooves, popped edges, wrinkles, and crushed foam
+- `/shop` — category list only
 
-There is no `/patterns` page and no standalone `/about` or `/faq` page. Shop categories are anchors on `/shop`, not separate item pages.
+There is no `/patterns` download and no checkout page. Shop categories are anchors on `/shop`.
+
+## Schematic diagrams
+
+Original line diagrams live in `images/diagrams/`. Each figure is captioned on the page as a schematic. They are not photographs and not items for sale.
 
 ## Local preview
 
@@ -33,4 +40,4 @@ Open `http://127.0.0.1:8080/` in a browser. Stop the server with Ctrl+C.
 
 That command does not publish the site. Root-absolute links and the stylesheet assume this local server. Opening the HTML files directly from disk will not resolve them.
 
-The same server may redirect `/shop` to `/shop/`. Both show the shop placeholder.
+The same server may redirect `/shop` to `/shop/`. Both show the shop list.
