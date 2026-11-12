@@ -124,7 +124,7 @@ a:focus-visible,
 .nav-list a,
 .footer-nav a {
   font-family: var(--sans);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   text-decoration-thickness: 1px;
 }
 
@@ -163,6 +163,7 @@ h3 {
   line-height: 1.25;
   text-wrap: pretty;
   font-weight: 650;
+  scroll-margin-top: 1rem;
 }
 
 h1 {
@@ -172,12 +173,12 @@ h1 {
 }
 
 h2 {
-  margin: 2.2rem 0 0.7rem;
+  margin: 2.45rem 0 0.75rem;
   font-size: 1.45rem;
 }
 
 h3 {
-  margin: 1.4rem 0 0.4rem;
+  margin: 1.55rem 0 0.45rem;
   font-size: 1.12rem;
 }
 
@@ -333,7 +334,52 @@ tbody th {
 .checklist li,
 .supply-note li,
 .keep-reading li {
-  margin: 0.55rem 0;
+  margin: 0.7rem 0;
+}
+
+.path {
+  margin: 0.4rem 0 1.4rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: path;
+}
+
+.path > li {
+  position: relative;
+  margin: 0;
+  padding: 0.85rem 0 0.9rem 2.7rem;
+  border-top: 1px solid var(--line);
+  counter-increment: path;
+}
+
+.path > li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.path > li::before {
+  content: counter(path);
+  position: absolute;
+  left: 0;
+  top: 0.9rem;
+  width: 1.65rem;
+  height: 1.65rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  line-height: 1.65rem;
+  text-align: center;
+}
+
+.path a {
+  font-family: var(--sans);
+  font-weight: 650;
+}
+
+.path li p {
+  margin: 0.25rem 0 0;
 }
 
 .supply-note,
@@ -402,6 +448,13 @@ tbody th {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+@media (max-width: 52rem) {
+  .nav-list,
+  .footer-nav {
+    gap: 0.35rem 0.85rem;
+  }
 }
 
 @media (max-width: 40rem) {
