@@ -257,6 +257,62 @@ li {
   list-style: disc;
 }
 
+.table-wrap {
+  overflow-x: auto;
+  margin: 1rem 0 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  margin: 0 0 0.45rem;
+}
+
+th,
+td {
+  border: 1px solid var(--line);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: var(--navy);
+  color: var(--navy-ink);
+  font-weight: 600;
+}
+
+.steps li {
+  margin: 0.75rem 0;
+}
+
+.limit {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  background: #eef3f6;
+  border-left: 4px solid var(--navy);
+}
+
+.limit p {
+  margin: 0.4rem 0;
+}
+
+.limit p:first-child {
+  margin-top: 0;
+}
+
+.limit p:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   background: var(--navy);
   color: var(--navy-ink);

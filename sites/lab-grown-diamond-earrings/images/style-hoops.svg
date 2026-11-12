@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img">
+  <title>Single-stone hoop compared with a hoop set with a row of stones</title>
+  <rect width="960" height="520" fill="#f3f7fa"/>
+  <text x="480" y="28" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">Schematic. Both hoops drawn at the same diameter. Not a photograph. Not for sale.</text>
+  <line x1="480" y1="48" x2="480" y2="450" stroke="#d2dde6"/>
+  <text x="240" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Single-stone hoop</text>
+  <text x="240" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">One laboratory-grown diamond on the ring</text>
+  <ellipse cx="240" cy="150" rx="28" ry="36" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <path d="M240 186 v18" stroke="#16324f" stroke-width="3"/>
+  <circle cx="240" cy="310" r="100" fill="none" stroke="#16324f" stroke-width="8"/>
+  <circle cx="240" cy="390" r="16" fill="#ffffff" stroke="#8c3d2f" stroke-width="3"/>
+  <text x="240" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">Read the one stone's report.</text>
+  <text x="720" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Hoop with a row</text>
+  <text x="720" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">Several stones set along the front</text>
+  <ellipse cx="720" cy="150" rx="28" ry="36" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <path d="M720 186 v18" stroke="#16324f" stroke-width="3"/>
+  <circle cx="720" cy="310" r="100" fill="none" stroke="#16324f" stroke-width="8"/>
+  <g fill="#ffffff" stroke="#8c3d2f" stroke-width="2.5">
+    <circle cx="650" cy="360" r="9"/>
+    <circle cx="672" cy="392" r="9"/>
+    <circle cx="704" cy="408" r="9"/>
+    <circle cx="736" cy="408" r="9"/>
+    <circle cx="768" cy="392" r="9"/>
+    <circle cx="790" cy="360" r="9"/>
+  </g>
+  <text x="720" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">Read the material of every stone in the row.</text>
+</svg>

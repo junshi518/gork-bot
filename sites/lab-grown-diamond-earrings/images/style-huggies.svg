@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img">
+  <title>Huggie and hoop drawn on the same size ear</title>
+  <rect width="960" height="520" fill="#f3f7fa"/>
+  <text x="480" y="28" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">Schematic. Both ears are the same size. Not a photograph. Not for sale.</text>
+  <line x1="480" y1="48" x2="480" y2="450" stroke="#d2dde6"/>
+  <text x="240" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Huggie</text>
+  <text x="240" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">Small hoop. Inner curve stays on the lobe.</text>
+  <ellipse cx="240" cy="220" rx="58" ry="80" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <path d="M178 230 C178 340 302 340 302 230" fill="none" stroke="#16324f" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="240" cy="200" r="4" fill="#8c3d2f"/>
+  <text x="240" y="430" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">Little hang below the earlobe.</text>
+  <text x="720" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Hoop, same ear scale</text>
+  <text x="720" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">The ring continues well below the lobe.</text>
+  <ellipse cx="720" cy="150" rx="58" ry="80" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <circle cx="720" cy="300" r="120" fill="none" stroke="#16324f" stroke-width="8"/>
+  <text x="720" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">More metal, more movement, more side view.</text>
+</svg>

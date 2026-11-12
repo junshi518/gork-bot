@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img">
+  <title>Short drop compared with a longer drop</title>
+  <rect width="960" height="540" fill="#f3f7fa"/>
+  <text x="480" y="28" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">Schematic. Same ear size. Not a photograph. Not for sale.</text>
+  <line x1="480" y1="48" x2="480" y2="470" stroke="#d2dde6"/>
+  <text x="240" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Short drop</text>
+  <text x="240" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">A link, then a stone just under the lobe</text>
+  <ellipse cx="240" cy="160" rx="40" ry="52" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <circle cx="240" cy="210" r="10" fill="#ffffff" stroke="#16324f" stroke-width="2.5"/>
+  <line x1="240" y1="220" x2="240" y2="248" stroke="#16324f" stroke-width="2.5"/>
+  <ellipse cx="240" cy="286" rx="22" ry="34" fill="#ffffff" stroke="#8c3d2f" stroke-width="3"/>
+  <text x="240" y="400" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">Top stone and hanging stone</text>
+  <text x="240" y="422" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">may be two different materials.</text>
+  <text x="720" y="68" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#14202b">Longer drop</text>
+  <text x="720" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#4a5c6b">More length below the lobe, more swing</text>
+  <ellipse cx="720" cy="150" rx="40" ry="52" fill="#ffffff" stroke="#c5d0da" stroke-width="2"/>
+  <path d="M720 200 v20" stroke="#16324f" stroke-width="2.5"/>
+  <path d="M700 220 h40" stroke="#16324f" stroke-width="2.5"/>
+  <line x1="720" y1="220" x2="720" y2="300" stroke="#16324f" stroke-width="2.5"/>
+  <ellipse cx="720" cy="360" rx="26" ry="48" fill="#ffffff" stroke="#8c3d2f" stroke-width="3"/>
+  <text x="720" y="450" text-anchor="middle" font-family="Segoe UI, Helvetica, sans-serif" font-size="14" fill="#14202b">Ask which stone the carat weight describes.</text>
+</svg>
