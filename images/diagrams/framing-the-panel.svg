@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 700" width="840" height="700" font-family="Segoe UI, system-ui, sans-serif">
   <title>Framing a flat kinusaiga panel</title>
-  <desc>Schematic cross-section of a frame rabbet covering the bare foam margin of a flat kinusaiga panel, with the leaf left visible. Not a photograph and not an item for sale.</desc>
+  <desc>Schematic of a frame rabbet covering the bare foam margin of a flat kinusaiga panel. The front view is a stem and four lobes. Not a photograph and not an item for sale.</desc>
   <defs>
     <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
       <rect width="9" height="9" fill="#f4ebdc"/>
@@ -41,9 +41,11 @@
   <text x="36" y="488" fill="#241e18" font-size="18" font-weight="700">From the front</text>
   <rect x="48" y="508" width="250" height="156" fill="#e7d3b0" stroke="#241e18" stroke-width="1.7"/>
   <rect x="92" y="540" width="162" height="92" fill="#f4e6c6" stroke="#241e18" stroke-width="1.4"/>
-  <ellipse cx="150" cy="578" rx="26" ry="20" fill="#3d6b58" stroke="#241e18" stroke-width="1.2"/>
-  <ellipse cx="196" cy="592" rx="24" ry="18" fill="#c4654a" stroke="#241e18" stroke-width="1.2"/>
-  <rect x="164" y="574" width="12" height="42" fill="#8d4e3c" stroke="#241e18" stroke-width="1.1"/>
+  <ellipse cx="158" cy="568" rx="18" ry="14" fill="#3d6b58" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="198" cy="566" rx="17" ry="13" fill="#8faf62" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="150" cy="596" rx="16" ry="13" fill="#e4b184" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="200" cy="598" rx="16" ry="13" fill="#c4654a" stroke="#241e18" stroke-width="1.15"/>
+  <rect x="168" y="572" width="10" height="46" rx="3" fill="#8d4e3c" stroke="#241e18" stroke-width="1.1"/>
 
   <text x="330" y="548" fill="#241e18" font-size="15" font-weight="700">The lip covers the margin.</text>
   <text x="330" y="576" fill="#5c564c" font-size="15">The leaf stays fully in view.</text>
