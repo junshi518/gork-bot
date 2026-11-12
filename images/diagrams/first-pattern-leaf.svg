@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 820" width="840" height="820" font-family="Segoe UI, system-ui, sans-serif">
   <title>First leaf pattern in plan</title>
-  <desc>Schematic plan of a first kinusaiga pattern: a foam margin, a border groove, a background, four simple lobes, and a stem. Not a photograph and not an item for sale.</desc>
+  <desc>Schematic plan of a first kinusaiga pattern: a foam margin, a dashed border, a background, four simple lobes, and a stem. Not a photograph and not an item for sale.</desc>
   <defs>
     <pattern id="foam" patternUnits="userSpaceOnUse" width="9" height="9">
       <rect width="9" height="9" fill="#f4ebdc"/>
@@ -43,10 +43,10 @@
   <text x="512" y="468" fill="#5c564c" font-size="14">About a finger wide.</text>
 
   <line x1="500" y1="540" x2="425" y2="580" stroke="#241e18" stroke-width="1.2"/>
-  <text x="512" y="536" fill="#241e18" font-size="15" font-weight="700">Border groove</text>
+  <text x="512" y="536" fill="#241e18" font-size="15" font-weight="700">Border line</text>
   <text x="512" y="558" fill="#5c564c" font-size="14">The dashed line.</text>
 
   <text x="70" y="710" fill="#241e18" font-size="16" font-weight="700">Tuck order: 1 background, 2 lobes, 3 stem, 4 border.</text>
   <text x="70" y="740" fill="#5c564c" font-size="16">Where two colors meet, draw one shared line.</text>
-  <text x="70" y="770" fill="#5c564c" font-size="15">Score the dark lines. Leave the margin bare.</text>
+  <text x="70" y="770" fill="#5c564c" font-size="15">Mark the dark pattern lines. Leave the margin bare.</text>
 </svg>

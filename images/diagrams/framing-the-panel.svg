@@ -41,11 +41,11 @@
   <text x="36" y="488" fill="#241e18" font-size="18" font-weight="700">From the front</text>
   <rect x="48" y="508" width="250" height="156" fill="#e7d3b0" stroke="#241e18" stroke-width="1.7"/>
   <rect x="92" y="540" width="162" height="92" fill="#f4e6c6" stroke="#241e18" stroke-width="1.4"/>
-  <ellipse cx="158" cy="568" rx="18" ry="14" fill="#3d6b58" stroke="#241e18" stroke-width="1.15"/>
-  <ellipse cx="198" cy="566" rx="17" ry="13" fill="#8faf62" stroke="#241e18" stroke-width="1.15"/>
-  <ellipse cx="150" cy="596" rx="16" ry="13" fill="#e4b184" stroke="#241e18" stroke-width="1.15"/>
-  <ellipse cx="200" cy="598" rx="16" ry="13" fill="#c4654a" stroke="#241e18" stroke-width="1.15"/>
-  <rect x="168" y="572" width="10" height="46" rx="3" fill="#8d4e3c" stroke="#241e18" stroke-width="1.1"/>
+  <ellipse cx="174" cy="556" rx="17" ry="13" fill="#3d6b58" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="153" cy="583" rx="16" ry="14" fill="#8faf62" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="193" cy="582" rx="16" ry="14" fill="#c4654a" stroke="#241e18" stroke-width="1.15"/>
+  <ellipse cx="159" cy="613" rx="14" ry="11" fill="#e4b184" stroke="#241e18" stroke-width="1.15"/>
+  <rect x="169" y="572" width="9" height="57" rx="3" fill="#8d4e3c" stroke="#241e18" stroke-width="1.1"/>
 
   <text x="330" y="548" fill="#241e18" font-size="15" font-weight="700">The lip covers the margin.</text>
   <text x="330" y="576" fill="#5c564c" font-size="15">The leaf stays fully in view.</text>
